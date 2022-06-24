@@ -54,30 +54,26 @@ const skills = [
 	{
 		name: 'Development',
 		skills: [
-			'HTML',
-			'CSS',
-			'JavaScript',
-			'React',
-			'Redux',
-			'SASS',
-			'Material UI',
-			'Git',
-			'Jest',]
+			'React', 'Redux', 'Next.js', 'JavaScript', 'HTML', 'CSS', 'SASS', 'Material UI', 'Git',
+			'Jest', 'Bootstrap', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'SQL', 'WebSocket']
 	},
 	{
 		name: 'Soft Skills',
 		skills: [
 			'Proactivity',
 			'Communication',
-			'Empathy']
+			'Teamwork',
+			'Creativity',
+			'Openness to criticism',
+			'Critical thinking',
+			'Empathy',
+			'Problem-solving',
+			'Attention to detail']
 	},
 	{
 		name: 'Others',
 		skills: [
-			'Microsoft Excel',
-			'Adobe Photoshop',
-			'Adobe Lightroom',
-			'Color Theory',]
+			'Software Design Patterns', 'Algorithm Complexity Analysis', 'Data Structure and Algorithms']
 	},
 ]
 

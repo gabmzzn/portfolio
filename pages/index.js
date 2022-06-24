@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useContext } from 'react'
 import { ThemeContext } from '../contexts/theme'
 import Header from '../components/Header/Header'
