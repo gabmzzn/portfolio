@@ -1,22 +1,21 @@
-import Navbar from '../Navbar/Navbar'
+import Navbar from './Navbar/Navbar'
+import { useState, useEffect } from 'react'
 import css from './Header.module.css'
 
-const Header = (props) => {
-	const { header, navbar } = props
-	const { homepage, title } = header
+const Header = () => {
+
+	const [scroll, setScroll] = useState(false)
+
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			setScroll(window.scrollY > 5)
+		})
+	}, [])
 
 	return (
-		<header className={`${css.header} center`}>
-			<h3>
-				{homepage ? (
-					<a href={homepage} className='link'>
-						{title}
-					</a>
-				) : (
-					title
-				)}
-			</h3>
-			<Navbar navbar={navbar} />
+		<header className={`${css.header} ${scroll && css.shadow} center`}>
+			<h3 style={{ color: 'var(--clr-primary)' }}><a href='#'>Juan Gabriel Mazzoleni</a></h3>
+			<Navbar />
 		</header>
 	)
 }

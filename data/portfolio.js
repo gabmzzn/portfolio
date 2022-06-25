@@ -19,32 +19,40 @@ const projects = [
 	{
 		name: 'CryptoCat',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
+			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, and general information',
+		stack: ['React', 'Next.js', 'SASS', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
 		sourceCode: 'https://github.com',
 		livePreview: 'https://github.com',
 	},
 	{
 		name: 'Zoom to Fill',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
+			'Developer of a Google Chrome extension for an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users',
+		stack: ['HTML', 'CSS', 'Javascript', 'Chrome API', 'Adobe Photoshop'],
 		sourceCode: 'https://github.com',
 		livePreview: 'https://github.com',
 	},
 	{
 		name: 'Investraining',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
+			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, and general information',
+		stack: ['Angular', 'TypeScript', 'Material', 'SASS', 'REST APIs', 'WebSocket'],
 		sourceCode: 'https://github.com',
 		livePreview: 'https://github.com',
 	},
 	{
 		name: 'Angular CRUD',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
+			'Web app made with NodeJS and Express.js as backend for experimenting different aspects of a API made with Node connected with a MySQL database and a frontend made on Angular.',
+		stack: ['Angular', 'Node.js', 'TypeScript', 'MySQL', 'Material', 'Bootstrap', 'REST APIs'],
+		sourceCode: 'https://github.com',
+		livePreview: 'https://angular-crud-sigma.vercel.app/',
+	},
+	{
+		name: 'Business System Manager',
+		description:
+			'Develop and maintenance of sales system, invoice, price list management and client management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',
+		stack: ['Microsoft Excel', 'SQL'],
 		sourceCode: 'https://github.com',
 		livePreview: 'https://angular-crud-sigma.vercel.app/',
 	},
@@ -63,35 +71,25 @@ const skills = [
 			'Proactivity',
 			'Communication',
 			'Teamwork',
-			'Creativity',
-			'Openness to criticism',
-			'Critical thinking',
 			'Empathy',
+			'Critical thinking',
+			'Openness to criticism',
 			'Problem-solving',
-			'Attention to detail']
-	},
-	{
-		name: 'Others',
-		skills: [
-			'Software Design Patterns', 'Algorithm Complexity Analysis', 'Data Structure and Algorithms']
-	},
+			'Attention to detail',
+			'Creativity'
+		]
+	}
 ]
 
 const education = [
 	{
 		title: 'Information Systems Engineering',
 		subtitle: 'Universidad Tecnológica Nacional',
-		description: `
-		• Data Structure and Algorithms
-		• Oriented Object Design
-		• Algorithm Complexity Analysis
-		• Software Design Patterns`,
 		info: '2022>',
 	},
 	{
 		title: 'Bachelor on Programming',
 		subtitle: 'Instituto José Peña',
-		description: 'School Landing Web Project',
 		info: '2012',
 	}
 ]
@@ -108,14 +106,14 @@ const certificates = [
 	{
 		title: 'React',
 		subtitle: 'The Complete Guide',
-		description: '(incl Hooks, React Router, Redux)',
+		description: 'React Hooks, React Router, Redux',
 		link: 'https://www.udemy.com/certificate/UC-e0dc8ff4-3547-4806-9325-a17fd01fd0a4/',
 		info: 'UDEMY - ACADEMIND - 2022'
 	},
 	{
-		title: 'NodeJS',
+		title: 'Node.js',
 		subtitle: 'The Complete Guide',
-		description: '(MVC, REST APIs, GraphQL)',
+		description: 'MVC, REST APIs, GraphQL',
 		link: 'https://www.udemy.com/certificate/UC-e0dc8ff4-3547-4806-9325-a17fd01fd0a4/',
 		info: 'UDEMY - ACADEMIND - 2022'
 	},

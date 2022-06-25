@@ -4,12 +4,12 @@ import css from './Learning.module.css'
 
 const Learning = (props) => {
 
-	const { title, learnings } = props
+	const { id, title, learnings } = props
 
 	if (!learnings.length) return null
 
 	return (
-		<section id='learnings' className='section learnings'>
+		<section id={id} className='section learnings'>
 			<h2 className='section__title'>{title}</h2>
 
 			<div className={css.grid}>

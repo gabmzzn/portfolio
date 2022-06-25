@@ -9,7 +9,7 @@ const Projects = (props) => {
 	if (!projects.length) return null
 
 	return (
-		<section id='projects' className='section projects'>
+		<section id='experience' className='section projects'>
 			<h2 className='section__title'>Products, &nbsp; Experience, &nbsp; Projects</h2>
 
 			<div className={css.grid}>

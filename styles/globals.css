@@ -3,7 +3,6 @@
 	margin: 0;
 	border: 0;
 	outline: 0;
-	background-color: inherit;
 	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
@@ -13,6 +12,7 @@
 
 html {
 	scroll-behavior: smooth;
+	background-color: rgb(30, 29, 28);
 }
 
 h1,

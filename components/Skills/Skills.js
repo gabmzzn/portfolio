@@ -10,8 +10,8 @@ const Skills = (props) => {
 	return (
 		<section className='section skills' id='skills'>
 			<h2 className='section__title'>Skills</h2>
-			{skills.map(skill => (
-				<>
+			{skills.map((skill, i) => (
+				<div key={i}>
 					<h4 className='section__title' style={{ textTransform: 'none' }}>
 						{skill.name}
 					</h4>
@@ -22,7 +22,7 @@ const Skills = (props) => {
 							</li>
 						))}
 					</ul>
-				</>
+				</div>
 			))}
 		</section>
 	)

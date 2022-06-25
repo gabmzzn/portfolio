@@ -3,13 +3,20 @@ import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
-import { ThemeContext } from '../../contexts/theme'
+import { ThemeContext } from '../../../contexts/theme'
+import { Cross as Hamburger } from 'hamburger-react'
 import css from './Navbar.module.css'
 
-const Navbar = (props) => {
+const Navbar = () => {
 
-	const { navbar } = props
-	const { projects, skills, contact } = navbar
+	const navbar = [
+		'experience',
+		'skills',
+		'education',
+		'licenses',
+		'recomm',
+		'contact'
+	]
 
 	const [{ themeName, toggleTheme }] = useContext(ThemeContext)
 	const [showNavList, setShowNavList] = useState(false)
@@ -22,59 +29,35 @@ const Navbar = (props) => {
 				style={{ display: showNavList ? 'flex' : null }}
 				className={css.list}
 			>
-				{projects.length ? (
-					<li className={css.listItem}>
+				{navbar.map((element, i) =>
+					<li className={css.listItem} key={i}>
 						<a
-							href='#projects'
+							href={`#${element}`}
 							onClick={toggleNavList}
 							className='link link--nav'
 						>
-							Projects
+							{element}
 						</a>
 					</li>
-				) : null}
-
-				{skills.length ? (
-					<li className={css.listItem}>
-						<a
-							href='#skills'
-							onClick={toggleNavList}
-							className='link link--nav'
-						>
-							Skills
-						</a>
-					</li>
-				) : null}
-
-				{contact.email ? (
-					<li className={css.listItem}>
-						<a
-							href='#contact'
-							onClick={toggleNavList}
-							className='link link--nav'
-						>
-							Contact
-						</a>
-					</li>
-				) : null}
+				)}
 			</ul>
 
-			<button
+			{/* <button
 				type='button'
 				onClick={toggleTheme}
 				className={`btn btn--icon ${css.theme}`}
 				aria-label='toggle theme'
 			>
 				{themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-			</button>
+			</button> */}
 
 			<button
 				type='button'
 				onClick={toggleNavList}
-				className={`btn btn--icon ${css.hamburger}`}
+				className={`${css.hamburger}`}
 				aria-label='toggle navigation'
 			>
-				{showNavList ? <CloseIcon /> : <MenuIcon />}
+				<Hamburger toggled={showNavList} toggle={toggleNavList} />
 			</button>
 		</nav>
 	)

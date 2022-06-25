@@ -9,6 +9,7 @@ const Contact = (props) => {
 	return (
 		<section className={`${css.contact} section center`} id='contact'>
 			<h2 className='section__title'>Contact</h2>
+			<h4>I am looking for job opportunities, and would love to connect! Drop me an email and I will get back to you, or find me on social media:</h4>
 			<a href={`mailto:${contact.email}`}>
 				<span type='button' className='btn btn--outline'>
 					Email me

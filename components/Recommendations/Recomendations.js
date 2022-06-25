@@ -9,7 +9,7 @@ const Recommendations = (props) => {
 	if (!recommendations.length) return null
 
 	return (
-		<section id='recommendations' className='section recommendations'>
+		<section id='recomm' className='section recommendations'>
 			<h2 className='section__title'>Recommendations</h2>
 
 			<div className={css.grid}>
