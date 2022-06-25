@@ -13,7 +13,8 @@ const Navbar = () => {
 		'experience',
 		'skills',
 		'education',
-		'licenses',
+		'licences',
+		'languages',
 		'recomm',
 		'contact'
 	]
@@ -25,10 +26,12 @@ const Navbar = () => {
 
 	return (
 		<nav className='center'>
-			<ul
-				style={{ display: showNavList ? 'flex' : null }}
-				className={css.list}
-			>
+			<ul className={`${css.list} ${showNavList ? css.visible : ''}`}>
+				<li className={`${css.listItem} ${css.about}`}>
+					<a href={'#'} onClick={toggleNavList} className='link link--nav'>
+						About
+					</a>
+				</li>
 				{navbar.map((element, i) =>
 					<li className={css.listItem} key={i}>
 						<a

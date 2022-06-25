@@ -4,16 +4,16 @@ import css from './Learning.module.css'
 
 const Learning = (props) => {
 
-	const { id, title, learnings } = props
+	const { id, title, data } = props
 
-	if (!learnings.length) return null
+	if (!data.length) return null
 
 	return (
 		<section id={id} className='section learnings'>
 			<h2 className='section__title'>{title}</h2>
 
 			<div className={css.grid}>
-				{learnings.map((learn) => (
+				{data.map((learn) => (
 					<LearningCard key={uniqid()} learn={learn} />
 				))}
 			</div>

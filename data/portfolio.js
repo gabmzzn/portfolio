@@ -94,7 +94,7 @@ const education = [
 	}
 ]
 
-const certificates = [
+const licences = [
 	{
 		title: 'Next.js & React',
 		subtitle: 'The Complete Guide',
@@ -126,6 +126,19 @@ const certificates = [
 	},
 ]
 
+const languages = [
+	{
+		title: 'English',
+		description: 'Advanced Level',
+		info: 'Excelent writing and reading, good listening and decent verbal skill'
+	},
+	{
+		title: 'Spanish',
+		description: 'Native Speaker',
+		info: 'With an Argentinian accent 😉'
+	}
+]
+
 const recommendations = [
 	{
 		title: 'Anastasiia',
@@ -142,4 +155,4 @@ const contact = {
 	email: 'gabmzzn@gmail.com',
 }
 
-export { header, about, projects, education, certificates, skills, recommendations, contact }
+export { header, about, projects, education, licences, skills, languages, recommendations, contact }

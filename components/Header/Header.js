@@ -14,7 +14,7 @@ const Header = () => {
 
 	return (
 		<header className={`${css.header} ${scroll && css.shadow} center`}>
-			<h3 style={{ color: 'var(--clr-primary)' }}><a href='#'>Juan Gabriel Mazzoleni</a></h3>
+			<h3 className={css.name}><a href='#'>Juan Gabriel Mazzoleni</a></h3>
 			<Navbar />
 		</header>
 	)
