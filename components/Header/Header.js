@@ -14,7 +14,7 @@ const Header = () => {
 
 	return (
 		<header className={`${css.header} ${scroll && css.shadow} center`}>
-			<h3 className={css.name}><a href='#'>Juan Gabriel Mazzoleni</a></h3>
+			<h3 className={css.name}><a href='#'>JGM.</a></h3>
 			<Navbar />
 		</header>
 	)

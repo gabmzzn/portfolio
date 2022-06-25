@@ -26,7 +26,7 @@ const Navbar = () => {
 
 	return (
 		<nav className='center'>
-			<ul className={`${css.list} ${showNavList ? css.visible : ''}`}>
+			<ul className={`${css.list} ${showNavList ? css.visible : css.invisible}`}>
 				<li className={`${css.listItem} ${css.about}`}>
 					<a href={'#'} onClick={toggleNavList} className='link link--nav'>
 						About
