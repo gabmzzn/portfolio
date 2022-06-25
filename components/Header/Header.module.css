@@ -15,6 +15,6 @@
 }
 
 .shadow {
-	box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-	transition: all 0.3s;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.75);
+	transition: all 0.5s;
 }

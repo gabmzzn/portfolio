@@ -2,7 +2,23 @@
 	position: fixed;
 	bottom: 2em;
 	right: 4em;
-	background-color: transparent;
+	box-shadow: rgba(0, 0, 0, 0.10) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	background-color: var(--clr-bg-alt);
+	border: 2px solid var(--clr-bg-alt);
+	padding: 10px 10px 4px 10px;
+	border-radius: 50%;
+	opacity: 100%;
+	transition: all 0.4s;
+}
+
+.top:hover {
+	border: 2px solid var(--clr-primary);
+	color: var(--clr-primary);
+}
+
+.visible {
+	opacity: 0%;
 }
 
 @media (max-width: 900px) {

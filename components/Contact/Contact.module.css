@@ -1,3 +1,9 @@
 .contact {
-  flex-direction: column;
+	flex-direction: column;
+	height: 700px;
+}
+
+.description {
+	max-width: 700px;
+	font-size: 20px;
 }
