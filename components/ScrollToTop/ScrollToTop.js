@@ -3,11 +3,11 @@ import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 import css from './ScrollToTop.module.css'
 
 const ScrollToTop = () => {
-	const [isVisible, setIsVisible] = useState('')
+	const [visible, setVisible] = useState('')
 
 	useEffect(() => {
 		const toggleVisibility = () =>
-			window.pageYOffset > 500 ? setIsVisible('') : setIsVisible(css.visible)
+			window.pageYOffset > 500 ? setVisible(css.visible) : setVisible('')
 
 		window.addEventListener('scroll', toggleVisibility)
 		return () => window.removeEventListener('scroll', toggleVisibility)
@@ -15,7 +15,7 @@ const ScrollToTop = () => {
 
 	return (
 		<a href='#'>
-			<div className={`${css.top} ${isVisible}`}>
+			<div className={`${css.top} ${visible}`}>
 				<ArrowUpwardIcon fontSize='large' />
 			</div>
 		</a>

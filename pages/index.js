@@ -11,7 +11,6 @@ import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Recommendations from '../components/Recommendations/Recomendations'
 import * as portfolio from '../data/portfolio'
-
 export default function Home() {
 
 	const { about, projects, licences, education,

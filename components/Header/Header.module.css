@@ -1,6 +1,6 @@
 .header {
 	position: fixed;
-	padding: 0 50px 0 50px;
+	padding: 0 50px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -20,6 +20,7 @@
 }
 
 .name {
-	color: var(--clr-primary);
+	color: var(--clr-primary) !important;
+	font-size: 1.8rem;
 	line-height: 1;
 }

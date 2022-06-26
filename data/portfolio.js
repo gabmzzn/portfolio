@@ -135,7 +135,7 @@ const languages = [
 	{
 		title: 'Spanish',
 		description: 'Native Speaker',
-		info: 'With an Argentinian accent 😉'
+		info: 'With an Argentinian accent 🧉'
 	}
 ]
 

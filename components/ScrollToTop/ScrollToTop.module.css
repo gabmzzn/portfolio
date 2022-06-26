@@ -8,7 +8,8 @@
 	border: 2px solid var(--clr-bg-alt);
 	padding: 10px 10px 4px 10px;
 	border-radius: 50%;
-	opacity: 100%;
+	visibility: hidden;
+	opacity: 0%;
 	transition: all 0.4s;
 }
 
@@ -18,10 +19,11 @@
 }
 
 .visible {
-	opacity: 0%;
+	opacity: 100%;
+	visibility: visible;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 845px) {
 	.top {
 		display: none;
 	}
