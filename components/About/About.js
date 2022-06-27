@@ -19,37 +19,29 @@ const About = (props) => {
 			<p className={css.desc}>{description && description}</p>
 
 			<div className={`${css.contact} center`}>
-				{resume && (
-					<a href={resume}>
-						<span type='button' className={`${css.btnOutline} btn--outline btn`}>
-							Resume
-						</span>
-					</a>
-				)}
-
-				{social && (
-					<>
-						{social.github && (
-							<a
-								href={social.github}
-								aria-label='github'
-								className={`${css.linkIcon} link`}
-							>
-								<GitHubIcon />
-							</a>
-						)}
-
-						{social.linkedin && (
-							<a
-								href={social.linkedin}
-								aria-label='linkedin'
-								className={`${css.linkIcon} link`}
-							>
-								<LinkedInIcon />
-							</a>
-						)}
-					</>
-				)}
+				<a href={resume}>
+					<span type='button' className={`${css.btnOutline} btn--outline btn`}>
+						Resume / cv
+					</span>
+				</a>
+				<a
+					href={social.github}
+					aria-label='github'
+					className={`${css.linkIcon} link`}
+					target="_blank" rel="noreferrer"
+				>
+					<h5>GitHub</h5>
+					<GitHubIcon />
+				</a>
+				<a
+					href={social.linkedin}
+					aria-label='linkedin'
+					className={`${css.linkIcon} link`}
+					target="_blank" rel="noreferrer"
+				>
+					<h5>LinkedIn</h5>
+					<LinkedInIcon />
+				</a>
 			</div>
 		</div>
 	)

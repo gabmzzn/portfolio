@@ -30,6 +30,15 @@
 	color: var(--clr-fg-alt);
 }
 
+.linkIcon {
+	display: flex;
+	margin-right: 0.8em;
+}
+
+.linkIcon svg {
+	margin: 0 0 0 5px;
+}
+
 .project .link--icon {
 	margin-left: 0.5em;
 }

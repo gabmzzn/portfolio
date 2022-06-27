@@ -7,6 +7,10 @@
 	transition: transform 0.2s;
 }
 
+.learning h3 {
+	margin-bottom: 5px;
+}
+
 .learning:hover {
 	transform: translateY(-7px);
 	/* transform: scale(1.03); */

@@ -13,7 +13,7 @@ const Navbar = () => {
 		'experience',
 		'skills',
 		'education',
-		'licences',
+		'certificates',
 		'languages',
 		// 'recomm',
 		'contact'

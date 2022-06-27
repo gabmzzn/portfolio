@@ -7,11 +7,11 @@ const about = {
 	name: 'Juan Gabriel Mazzoleni',
 	role: 'Full Stack Developer',
 	description:
-		'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+		'Wait for smoke...',
 	resume: 'https://example.com',
 	social: {
-		linkedin: 'https://linkedin.com',
-		github: 'https://github.com',
+		linkedin: 'https://www.linkedin.com/in/juan-gabriel-mazzoleni/',
+		github: 'https://github.com/gabmzzn',
 	},
 }
 
@@ -105,28 +105,35 @@ const education = [
 	}
 ]
 
-const licences = [
+const certificates = [
 	{
 		title: 'Next.js & React',
 		subtitle: 'The Complete Guide',
 		description:
-			'',
+			'Pages and File-based Routing, Pre-Rendering and Data Fetching, App deployment',
 		link: 'https://www.udemy.com/certificate/UC-ce912e31-f313-4f16-ad54-c34de50b9f95/',
 		info: 'UDEMY - ACADEMIND - 2022'
 	},
 	{
 		title: 'React',
 		subtitle: 'The Complete Guide',
-		description: 'React Hooks, React Router, Redux',
+		description: 'React Hooks, React Router, Redux, Optimization Techniques, Custom Hooks, App Deployment',
 		link: 'https://www.udemy.com/certificate/UC-e0dc8ff4-3547-4806-9325-a17fd01fd0a4/',
 		info: 'UDEMY - ACADEMIND - 2022'
 	},
 	{
 		title: 'Node.js',
 		subtitle: 'The Complete Guide',
-		description: 'MVC, REST APIs, GraphQL',
+		description: 'Express.js, Model View Controler (MVC), Dynamic Routes & Advanced Models, Sequelize, NoSQL, REST APIs, GraphQL',
 		link: 'https://www.udemy.com/certificate/UC-e0dc8ff4-3547-4806-9325-a17fd01fd0a4/',
-		info: 'UDEMY - ACADEMIND - 2022'
+		info: 'UDEMY - ACADEMIND - 2022>'
+	},
+	{
+		title: 'MongoDB',
+		subtitle: 'The Complete Guide',
+		description: 'MongoDB Development for Web & Mobile Apps. CRUD Operations, Indexes, Aggregation Framework',
+		link: 'https://www.udemy.com/course/mongodb-the-complete-developers-guide/',
+		info: 'UDEMY - ACADEMIND - 2022>'
 	},
 	{
 		title: 'EF SET',
@@ -166,4 +173,4 @@ const contact = {
 	email: 'gabmzzn@gmail.com',
 }
 
-export { header, about, projects, education, licences, skills, languages, recommendations, contact }
+export { header, about, projects, education, certificates, skills, languages, recommendations, contact }

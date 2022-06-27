@@ -14,7 +14,7 @@ import * as portfolio from '../data/portfolio'
 import Education from '../components/Education/Education'
 export default function Home() {
 
-	const { about, projects, licences, education,
+	const { about, projects, certificates, education,
 		skills, recommendations, languages, contact } = portfolio
 
 	const [{ themeName }] = useContext(ThemeContext)
@@ -33,7 +33,7 @@ export default function Home() {
 				<Projects id="experience" projects={projects} />
 				<Education id="education" title="Education" data={education} />
 				<Skills skills={skills} />
-				<Learning id="licences" title="Licences & Certificates" data={licences} />
+				<Learning id="certificates" title="Certificates" data={certificates} />
 				<Learning id="languages" title="Languages" data={languages} />
 				{/* <Recommendations recommendations={recommendations} /> */}
 				<Contact contact={contact} />

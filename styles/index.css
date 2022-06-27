@@ -8,9 +8,9 @@
 .dark {
 	--clr-bg: rgb(30, 29, 28);
 	--clr-bg-alt: rgb(47, 46, 45);
-	--clr-fg: #fff4e4;
-	--clr-fg-alt: #fce0b9;
-	--clr-primary: #FFC874;
+	--clr-fg: rgb(255, 244, 228);
+	--clr-fg-alt: rgb(252, 224, 185);
+	--clr-primary: rgb(255, 200, 116);
 	--shadow: rgba(0, 0, 0, 0.40) 0px 6px 26px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -50,9 +50,11 @@ main {
 .link::before {
 	content: '';
 	display: inline;
-	width: 100%;
+	width: 96%;
+	right: 2%;
+	left: 2%;
 	opacity: 0%;
-	height: 0.2em;
+	height: 3px;
 	position: absolute;
 	bottom: 0;
 	background-color: var(--clr-primary);
@@ -77,42 +79,19 @@ main {
 .btn {
 	display: block;
 	border-radius: 12px;
+	color: var(--clr-primary);
+	border: 2px solid var(--clr-primary);
 	cursor: pointer;
-	padding: 0.8em 1.4em;
+	padding: 0.7em 1.3em;
 	font-weight: 500;
 	font-size: 0.9rem;
 	text-transform: lowercase;
-	transition: transform 0.2s;
+	transition: all 0.25s ease-out;
 }
 
-.btn--outline {
-	color: var(--clr-primary);
-	border: 2px solid var(--clr-primary);
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
-}
-
-.btn--outline:hover,
-.btn--outline:focus {
-	color: var(--clr-bg);
-}
-
-.btn--outline:before {
-	content: '';
-	position: absolute;
-	background-color: var(--clr-primary);
-	right: 100%;
-	bottom: 0;
-	left: 0;
-	top: 0;
-	z-index: -1;
-	transition: right 0.2s;
-}
-
-.btn--outline:hover:before,
-.btn--outline:focus:before {
-	right: 0;
+.btn:hover {
+	/* color: var(--clr-bg); */
+	background-color: #ffaa2a33;
 }
 
 .btn--plain {
@@ -148,7 +127,7 @@ main {
 #experience,
 #skills,
 #education,
-#licences,
+#certificates,
 #languages,
 #recomm,
 #contact {

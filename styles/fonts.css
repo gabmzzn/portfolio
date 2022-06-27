@@ -1,7 +1,6 @@
 /* poppins-regular - latin */
 @font-face {
 	font-family: 'Poppins';
-	font-display: block;
 	font-style: normal;
 	font-weight: 400;
 	src: url('../public/fonts/poppins-v20-latin-regular.eot');
@@ -22,7 +21,6 @@
 /* poppins-500 - latin */
 @font-face {
 	font-family: 'Poppins';
-	font-display: block;
 	font-style: normal;
 	font-weight: 500;
 	src: url('../public/fonts/poppins-v20-latin-500.eot');
@@ -43,7 +41,6 @@
 /* poppins-700 - latin */
 @font-face {
 	font-family: 'Poppins';
-	font-display: block;
 	font-style: normal;
 	font-weight: 700;
 	src: url('../public/fonts/poppins-v20-latin-700.eot');
