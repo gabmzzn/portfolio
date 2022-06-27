@@ -77,7 +77,7 @@ main {
 }
 
 .btn {
-	display: block;
+	/* display: block; */
 	border-radius: 12px;
 	color: var(--clr-primary);
 	border: 2px solid var(--clr-primary);

@@ -1,0 +1,32 @@
+.language {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1em 2em 0 2em;
+	border-radius: 16px;
+}
+
+.language h4 {
+	margin: 12px 0;
+}
+
+.language ul {
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.4rem !important;
+	font-weight: semi-bold;
+	justify-content: center;
+	margin: 0.6em 0;
+}
+
+.img {
+	height: 50px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	image-rendering: crisp-edges;
+}

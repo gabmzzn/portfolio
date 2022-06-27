@@ -12,6 +12,7 @@ import Footer from '../components/Footer/Footer'
 import Recommendations from '../components/Recommendations/Recomendations'
 import * as portfolio from '../data/portfolio'
 import Education from '../components/Education/Education'
+import Languages from '../components/Languages/Languages'
 export default function Home() {
 
 	const { about, projects, certificates, education,
@@ -34,7 +35,7 @@ export default function Home() {
 				<Education id="education" title="Education" data={education} />
 				<Skills skills={skills} />
 				<Learning id="certificates" title="Certificates" data={certificates} />
-				<Learning id="languages" title="Languages" data={languages} />
+				<Languages id="languages" title="Languages" data={languages} />
 				{/* <Recommendations recommendations={recommendations} /> */}
 				<Contact contact={contact} />
 			</main>

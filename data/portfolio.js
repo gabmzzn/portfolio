@@ -5,10 +5,10 @@ const header = {
 
 const about = {
 	name: 'Juan Gabriel Mazzoleni',
-	role: 'Full Stack Developer',
+	role: 'and I\'m a Full Stack Developer',
 	description:
-		'Wait for smoke...',
-	resume: 'https://example.com',
+		'I live in Cordoba, Argentina, and I\'m a passionate multi-skilled developer and a information systems engineer student',
+	resume: '/CV - Juan Gabriel Mazzoleni.pdf',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/juan-gabriel-mazzoleni/',
 		github: 'https://github.com/gabmzzn',
@@ -19,42 +19,52 @@ const projects = [
 	{
 		name: 'CryptoCat',
 		description:
-			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, and general information',
+			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and top exchanges',
 		stack: ['React', 'Next.js', 'SASS', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+		sourceCode: 'https://github.com/gabmzzn/cryptocat',
+		livePreview: 'https://cryptovcat.vercel.app/market',
+	},
+	{
+		name: 'Next Events',
+		description:
+			'Developer of a React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
+		stack: ['React', 'Next.js', 'SASS', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'Zoom to Fill',
 		description:
 			'Developer of a Google Chrome extension for an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users',
 		stack: ['HTML', 'CSS', 'Javascript', 'Chrome API', 'Adobe Photoshop'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+		sourceCode: 'https://github.com/gabmzzn/zoomtofill',
+		livePreview: 'https://zoomtofill.vercel.app/',
+	},
+	{
+		name: 'React Food App',
+		description:
+			'Developer of a React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database',
+		stack: ['React', 'SASS', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'Investraining',
 		description:
-			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, and general information',
+			'Developer of a web portal crypto where it shows fluctuant live market data in real-time and statistical data about specific currencies',
 		stack: ['Angular', 'TypeScript', 'Material', 'SASS', 'REST APIs', 'WebSocket'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+		sourceCode: 'https://github.com/gabmzzn/investraining',
+		livePreview: 'https://investraining.vercel.app/market',
 	},
 	{
 		name: 'Angular CRUD',
 		description:
 			'Web app made with NodeJS and Express.js as backend for experimenting different aspects of a API made with Node connected with a MySQL database and a frontend made on Angular.',
 		stack: ['Angular', 'Node.js', 'TypeScript', 'MySQL', 'Material', 'Bootstrap', 'REST APIs'],
-		sourceCode: 'https://github.com',
+		sourceCode: 'https://github.com/gabmzzn/angularCRUD',
 		livePreview: 'https://angular-crud-sigma.vercel.app/',
 	},
 	{
 		name: 'Business System Manager',
 		description:
 			'Develop and maintenance of sales system, invoice, price list management and client management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',
-		stack: ['Microsoft Excel', 'SQL'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://angular-crud-sigma.vercel.app/',
+		stack: ['Microsoft Excel', 'SQL']
 	},
 ]
 
@@ -138,7 +148,7 @@ const certificates = [
 	{
 		title: 'EF SET',
 		subtitle: 'English Certificate',
-		description: '84/100 (C2 Proficient)',
+		description: 'Listening Section 80/100, Reading Section 88/100, Total Score 84/100 (C2 Proficient)',
 		link: 'https://www.efset.org/cert/wxiedj',
 		info: 'EF STANDARD ENGLISH TEST - 2021'
 	},
@@ -147,13 +157,15 @@ const certificates = [
 const languages = [
 	{
 		title: 'English',
-		description: 'Advanced Level',
-		info: 'Excelent writing and reading, good listening and decent verbal skill'
+		subtitle: 'Advanced Level',
+		description: ['Excelent writing and reading', 'Good listening', 'Good verbal skill'],
+		img: './gb.svg'
 	},
 	{
 		title: 'Spanish',
-		description: 'Native Speaker',
-		info: 'With an Argentinian accent 🧉'
+		subtitle: 'Native Speaker',
+		description: ['With an Argentinian accent 🧉'],
+		img: '/es.svg'
 	}
 ]
 

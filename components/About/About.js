@@ -11,7 +11,7 @@ const About = (props) => {
 		<div className={`${css.about} center`}>
 			{name && (
 				<h1>
-					Hi, I am <span className={css.name}><br />Juan Gabriel <br />Mazzoleni</span>
+					Hi, my name is <span className={css.name}><br />Juan Gabriel <br />Mazzoleni</span>
 				</h1>
 			)}
 
@@ -20,7 +20,7 @@ const About = (props) => {
 
 			<div className={`${css.contact} center`}>
 				<a href={resume}>
-					<span type='button' className={`${css.btnOutline} btn--outline btn`}>
+					<span type='button' className={`${css.btnOutline} btn`}>
 						Resume / cv
 					</span>
 				</a>

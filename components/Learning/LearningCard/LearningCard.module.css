@@ -34,6 +34,11 @@
 	color: var(--clr-fg-alt);
 }
 
-.learning .link--icon {
+.learning .linkIcon {
+	display: flex;
 	margin-left: 0.5em;
+}
+
+.linkIcon svg {
+	margin: 0 0 0 5px;
 }

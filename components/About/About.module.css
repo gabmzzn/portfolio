@@ -1,4 +1,5 @@
 .about {
+	text-align: center;
 	flex-direction: column;
 	padding-top: 9em;
 }
@@ -8,24 +9,33 @@
 }
 
 .role {
-	margin-top: 1.2em;
+	margin-top: 0.8em;
 	text-align: center;
 	padding: 0 25px;
 }
 
 .desc {
+	margin-top: 1.6em;
+	text-align: center;
 	font-size: 1rem;
 	max-width: 600px;
 	padding: 0 25px;
 }
 
-.desc,
 .contact {
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 2.4em;
+	align-items: center;
+	justify-content: center;
+}
+
+.btnOutline {
+	white-space: nowrap;
 }
 
 .contact a {
-	margin: 0 8px;
+	margin: 15px 8px;
 }
 
 .about .linkIcon {
