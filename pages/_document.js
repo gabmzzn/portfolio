@@ -5,10 +5,9 @@ export default function Document() {
 		<Html>
 			<Head>
 				<meta charSet="utf-8" />
-				<meta name="description" content="Portfolio" />
-				<link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-				<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+				<link rel="preload" href="_next/static/media/poppins-v20-latin-regular.916d3686.woff2" as="font" type="font/woff" crossOrigin="anonymous" />
+				<link rel="preload" href="_next/static/media/poppins-v20-latin-500.7777133e.woff2" as="font" type="font/woff" crossOrigin="anonymous" />
+				<link rel="preload" href="_next/static/media/poppins-v20-latin-700.9a881e2a.woff2" as="font" type="font/woff" crossOrigin="anonymous" />
 			</Head>
 			<body>
 				<Main />

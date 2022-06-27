@@ -74,7 +74,7 @@ const skills = [
 			'Empathy',
 			'Critical thinking',
 			'Openness to criticism',
-			'Problem-solving',
+			'Problem solving',
 			'Attention to detail',
 			'Creativity'
 		]
@@ -85,11 +85,18 @@ const education = [
 	{
 		title: 'Information Systems Engineering',
 		subtitle: 'Universidad Tecnológica Nacional',
+		description: [
+			'Data Structure and Algorithms',
+			'Oriented Object Design',
+			'Software Design Patterns',
+			'Algorithm Complexity Analysis',
+		],
 		info: '2022>',
 	},
 	{
 		title: 'Bachelor on Programming',
 		subtitle: 'Instituto José Peña',
+		description: ['Scholar Website Project', 'Systems Theory', 'Python language', 'Visual Basic .NET'],
 		info: '2012',
 	}
 ]

@@ -11,6 +11,7 @@ import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Recommendations from '../components/Recommendations/Recomendations'
 import * as portfolio from '../data/portfolio'
+import Education from '../components/Education/Education'
 export default function Home() {
 
 	const { about, projects, licences, education,
@@ -30,8 +31,8 @@ export default function Home() {
 			<main>
 				<About about={about} />
 				<Projects id="experience" projects={projects} />
+				<Education id="education" title="Education" data={education} />
 				<Skills skills={skills} />
-				<Learning id="education" title="Education" data={education} />
 				<Learning id="licences" title="Licences & Certificates" data={licences} />
 				<Learning id="languages" title="Languages" data={languages} />
 				<Recommendations recommendations={recommendations} />

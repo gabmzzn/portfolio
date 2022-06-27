@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/index.css'
+import '../styles/fonts.css'
 import { ThemeProvider } from '../contexts/theme'
 
 function MyApp({ Component, pageProps }) {
