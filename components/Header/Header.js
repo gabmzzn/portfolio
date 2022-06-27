@@ -14,7 +14,7 @@ const Header = () => {
 
 	return (
 		<header className={`${css.header} ${scroll ? css.shadow : ''} center`}>
-			<a href='#'>
+			<a href='#' className={css.logo}>
 				<img className={css.svg} src={'/glasses.svg'} />
 			</a>
 			<Navbar />

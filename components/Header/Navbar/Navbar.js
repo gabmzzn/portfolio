@@ -15,7 +15,7 @@ const Navbar = () => {
 		'education',
 		'licences',
 		'languages',
-		'recomm',
+		// 'recomm',
 		'contact'
 	]
 

@@ -11,7 +11,7 @@
 	z-index: 100;
 }
 
-.header a {
+.logo {
 	padding: 0 15px;
 	margin-left: -20px;
 	height: 4em;
@@ -19,7 +19,7 @@
 }
 
 .shadow {
-	box-shadow: 0 0 40px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.85);
 	transition: box-shadow 0.6s;
 }
 

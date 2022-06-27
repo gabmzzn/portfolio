@@ -86,18 +86,22 @@ const education = [
 		title: 'Information Systems Engineering',
 		subtitle: 'Universidad Tecnológica Nacional',
 		description: [
-			'Data Structure and Algorithms',
-			'Oriented Object Design',
-			'Software Design Patterns',
+			'Unified Software Development Process',
 			'Algorithm Complexity Analysis',
+			'Software Design Patterns',
+			'Oriented Object Design',
+			'Database Design',
+			'Data Structure and Algorithms'
 		],
 		info: '2022>',
+		img: '/utn.png'
 	},
 	{
 		title: 'Bachelor on Programming',
 		subtitle: 'Instituto José Peña',
-		description: ['Scholar Website Project', 'Systems Theory', 'Python language', 'Visual Basic .NET'],
+		description: ['Scholar Website Project', 'General Systems Theory', 'Python language', 'Visual Basic .NET'],
 		info: '2012',
+		img: '/graduate.png'
 	}
 ]
 

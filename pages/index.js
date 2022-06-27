@@ -35,7 +35,7 @@ export default function Home() {
 				<Skills skills={skills} />
 				<Learning id="licences" title="Licences & Certificates" data={licences} />
 				<Learning id="languages" title="Languages" data={languages} />
-				<Recommendations recommendations={recommendations} />
+				{/* <Recommendations recommendations={recommendations} /> */}
 				<Contact contact={contact} />
 			</main>
 
