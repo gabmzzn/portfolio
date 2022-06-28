@@ -27,7 +27,7 @@ const Contact = (props) => {
 					target="_blank" rel="noreferrer">
 					<PhoneIcon />
 				</a><br />
-				Or just reach me through&nbsp;
+				Or just reach me at &nbsp;
 				<a
 					href={'https://www.linkedin.com/in/juan-gabriel-mazzoleni/'}
 					aria-label='linkedin'
