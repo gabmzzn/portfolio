@@ -17,31 +17,31 @@ const ProjectCard = ({ project }) => (
 				))}
 			</ul>
 		)}
-		<div style={{ display: 'flex', justifyContent: 'center' }}>
-			{project.sourceCode && (
-				<a
-					href={project.sourceCode}
-					aria-label='source code'
-					className={`${css.linkIcon} link`}
-					target='_blank' rel="noreferrer"
-				>
-					<h5>GitHub</h5>
-					<GitHubIcon />
-				</a>
-			)}
-
-			{project.livePreview && (
-				<a
-					href={project.livePreview}
-					aria-label='live preview'
-					className={`${css.linkIcon} link`}
-					target='_blank' rel="noreferrer"
-				>
-					<h5>Website</h5>
-					<LaunchIcon />
-				</a>
-			)}
-		</div>
+		{(project.sourceCode || project.livePreview) &&
+			<div style={{ display: 'flex', marginTop: '1.2em' }}>
+				{project.sourceCode && (
+					<a
+						href={project.sourceCode}
+						aria-label='source code'
+						className={`${css.linkIcon} link`}
+						target='_blank' rel="noreferrer"
+					>
+						<h5>GitHub</h5>
+						<GitHubIcon />
+					</a>
+				)}
+				{project.livePreview && (
+					<a
+						href={project.livePreview}
+						aria-label='live preview'
+						className={`${css.linkIcon} link`}
+						target='_blank' rel="noreferrer"
+					>
+						<h5>Website</h5>
+						<LaunchIcon />
+					</a>
+				)}
+			</div>}
 	</div>
 )
 

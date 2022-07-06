@@ -21,7 +21,7 @@ export default function Home() {
 	const [{ themeName }] = useContext(ThemeContext)
 
 	return (
-		<div className={`${themeName} app`}>
+		<div className={`theme app`}>
 
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />

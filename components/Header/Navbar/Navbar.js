@@ -28,7 +28,7 @@ const Navbar = () => {
 		<nav className='center'>
 			<ul className={`${css.list} ${showNavList ? css.visible : css.invisible}`}>
 				<li className={`${css.listItem} ${css.about}`}>
-					<a href={'#'} onClick={toggleNavList} className='link link--nav'>
+					<a href={'#'} onClick={toggleNavList} className={`${css.link} link--nav`}>
 						About
 					</a>
 				</li>
@@ -37,7 +37,7 @@ const Navbar = () => {
 						<a
 							href={`#${element}`}
 							onClick={toggleNavList}
-							className='link link--nav'
+							className={`${css.link} link--nav`}
 						>
 							{element}
 						</a>

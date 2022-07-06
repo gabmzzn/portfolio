@@ -1,15 +1,6 @@
 .project {
-	padding: 2em;
-	border-radius: 16px;
-	margin: 0 auto;
-	text-align: center;
-	box-shadow: var(--shadow);
-	transition: transform 0.2s;
-}
-
-.project:hover {
-	transform: translateY(-7px);
-	/* transform: scale(1.03); */
+	padding: 1.5em;
+	width: 48%;
 }
 
 .description {
@@ -19,15 +10,14 @@
 .stack {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	margin: 1.2em 0;
+	margin: 1.2em 0 0;
 }
 
 .stackItem {
-	margin: 0.5em;
+	margin: 0.5em 1em 0.5em 0;
 	font-weight: 500;
 	font-size: 0.8rem;
-	color: var(--clr-fg-alt);
+	color: var(--font-hs);
 }
 
 .linkIcon {

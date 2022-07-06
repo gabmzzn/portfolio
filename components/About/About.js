@@ -9,17 +9,23 @@ const About = (props) => {
 
 	return (
 		<div className={`${css.about} center`}>
-			{name && (
-				<h1>
-					Hi, my name is <span className={css.name}><br />Juan Gabriel <br />Mazzoleni</span>
-				</h1>
-			)}
+			<h2 className={css.hi}>
+				Hi, my name is
+			</h2>
+			<h1>
+				<span className={css.name}>
+					Juan Gabriel <br />Mazzoleni
+				</span>
+			</h1>
 
 			{role && <h2 className={css.role}>{role}</h2>}
 			<p className={css.desc}>{description && description}</p>
 
 			<div className={`${css.contact} center`}>
-				<a href={resume}>
+				<a href={resume}
+					aria-label='github'
+					target="_blank" rel="noreferrer"
+				>
 					<span type='button' className={`${css.btnOutline} btn`}>
 						Resume / cv
 					</span>

@@ -11,10 +11,9 @@ const Projects = (props) => {
 	return (
 		<section id='experience' className='section projects'>
 			<h2 className='section__title'>Products, &nbsp; Experience, &nbsp; Projects</h2>
-
-			<div className={css.grid}>
-				{projects.map((project) => (
-					<ProjectCard key={uniqid()} project={project} />
+			<div className={css.projects}>
+				{projects.map((project, i) => (
+					<ProjectCard key={i} project={project} />
 				))}
 			</div>
 		</section>

@@ -11,7 +11,6 @@ const Education = (props) => {
 	return (
 		<section id={id} className='section'>
 			<h2 className='section__title'>{title}</h2>
-
 			<div className={css.grid}>
 				{data.map((edu) => (
 					<EducationCard key={uniqid()} edu={edu} />

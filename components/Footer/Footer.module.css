@@ -7,7 +7,7 @@
 .footerLink {
 	font-size: 0.9rem;
 	font-weight: 600;
-	color: var(--clr-fg);
+	color: var(--font);
 }
 
 @media (max-width: 600px) {

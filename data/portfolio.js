@@ -7,7 +7,7 @@ const about = {
 	name: 'Juan Gabriel Mazzoleni',
 	role: 'and I\'m a Full Stack Developer',
 	description:
-		'I live in Cordoba, Argentina, and I\'m a passionate multi-skilled developer and a information systems engineer student',
+		'I live in Cordoba, Argentina, and I\'m a passionate multi-skilled developer and an information systems engineer student',
 	resume: '/CV - Juan Gabriel Mazzoleni.pdf',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/juan-gabriel-mazzoleni/',
@@ -17,32 +17,40 @@ const about = {
 
 const projects = [
 	{
+		name: 'Cinema React',
+		description:
+			'Developer of a movie theatre-like portal to show different popular avaible movies with detailed information pages with search functionality, powered by TheMovieDB API',
+		stack: ['React', 'TypeScript', 'SASS', 'REST APIs', 'Material UI'],
+		sourceCode: 'https://github.com/gabmzzn/cinema-react',
+		livePreview: 'https://cinemareact.vercel.app/discover',
+	},
+	{
 		name: 'CryptoCat',
 		description:
 			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and top exchanges',
-		stack: ['React', 'Next.js', 'SASS', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
+		stack: ['React', 'Next.js', 'JavaScript', 'SASS', 'REST APIs', 'WebSocket', 'Material UI'],
 		sourceCode: 'https://github.com/gabmzzn/cryptocat',
 		livePreview: 'https://cryptovcat.vercel.app/market',
-	},
-	{
-		name: 'Next Events',
-		description:
-			'Developer of a React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
-		stack: ['React', 'Next.js', 'SASS', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'Zoom to Fill',
 		description:
 			'Developer of a Google Chrome extension for an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users',
-		stack: ['HTML', 'CSS', 'Javascript', 'Chrome API', 'Adobe Photoshop'],
+		stack: ['Javascript', 'HTML', 'CSS', 'Chrome API', 'Adobe Photoshop'],
 		sourceCode: 'https://github.com/gabmzzn/zoomtofill',
 		livePreview: 'https://zoomtofill.vercel.app/',
+	},
+	{
+		name: 'Next Events',
+		description:
+			'Developer of a React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
+		stack: ['React', 'Next.js', 'JavaScript', 'SASS', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'React Food App',
 		description:
 			'Developer of a React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database',
-		stack: ['React', 'SASS', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
+		stack: ['React', 'JavaScript', 'SASS', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'Investraining',
@@ -72,8 +80,7 @@ const skills = [
 	{
 		name: 'Development',
 		skills: [
-			'React', 'Redux', 'Next.js', 'JavaScript', 'HTML', 'CSS', 'SASS', 'Material UI', 'Git',
-			'Jest', 'Bootstrap', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'SQL', 'WebSocket']
+			'React', 'Redux', 'Next.js', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Material UI', 'Node.js', 'Express.js', 'SQL', 'REST APIs', 'WebSocket']
 	},
 	{
 		name: 'Soft Skills',
@@ -134,7 +141,7 @@ const certificates = [
 	{
 		title: 'Node.js',
 		subtitle: 'The Complete Guide',
-		description: 'Express.js, Model View Controler (MVC), Dynamic Routes & Advanced Models, Sequelize, NoSQL, REST APIs, GraphQL',
+		description: 'Express.js, MVC, Dynamic Routes & Advanced Models, Sequelize, NoSQL, REST APIs, GraphQL',
 		link: 'https://www.udemy.com/certificate/UC-e0dc8ff4-3547-4806-9325-a17fd01fd0a4/',
 		info: 'UDEMY - ACADEMIND - 2022>'
 	},

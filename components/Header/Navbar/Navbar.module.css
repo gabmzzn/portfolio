@@ -4,17 +4,42 @@
 	transition: visibility 0.3s, opacity 0.3s;
 }
 
+.link {
+	color: var(--primary);
+	padding: 0 0 0.3em 0;
+	position: relative;
+	transition: color 0.5s;
+}
+
+.link:hover {
+	color: var(--primary)
+}
+
+.link::before {
+	content: '';
+	display: inline;
+	width: 96%;
+	right: 2%;
+	left: 2%;
+	opacity: 0%;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	background-color: var(--primary);
+	transition: opacity 0.4s;
+}
+
+.link:hover::before,
+.link:focus::before {
+	opacity: 100%;
+}
+
 .listItem {
 	margin-left: 1.5em;
 }
 
 .hamburger {
-	color: var(--clr-fg-alt);
 	display: none !important;
-}
-
-.hamburger:hover {
-	color: var(--clr-primary);
 }
 
 .theme {
@@ -54,7 +79,7 @@
 		width: 100%;
 		height: 100%;
 		font-size: 26px !important;
-		background-color: var(--clr-bg);
+		background-color: var(--background);
 		z-index: 250;
 	}
 
@@ -72,10 +97,10 @@
 	}
 
 	.hamburger:hover {
-		color: var(--clr-fg-alt);
+		color: var(--font-hs);
 	}
 
 	.hamburger:active {
-		color: var(--clr-primary);
+		color: var(--primary);
 	}
 }
