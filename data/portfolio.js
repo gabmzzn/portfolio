@@ -20,7 +20,7 @@ const projects = [
 		name: 'Cinema React',
 		description:
 			'Developer of a movie theatre-like portal to show different popular avaible movies with detailed information pages with search functionality, powered by TheMovieDB API',
-		stack: ['React', 'TypeScript', 'SASS', 'REST APIs', 'Material UI'],
+		stack: ['React', 'TypeScript', 'REST APIs', 'Material UI'],
 		sourceCode: 'https://github.com/gabmzzn/cinema-react',
 		livePreview: 'https://cinemareact.vercel.app/discover',
 	},
@@ -28,7 +28,7 @@ const projects = [
 		name: 'CryptoCat',
 		description:
 			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and top exchanges',
-		stack: ['React', 'Next.js', 'JavaScript', 'SASS', 'REST APIs', 'WebSocket', 'Material UI'],
+		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
 		sourceCode: 'https://github.com/gabmzzn/cryptocat',
 		livePreview: 'https://cryptovcat.vercel.app/market',
 	},
@@ -44,19 +44,19 @@ const projects = [
 		name: 'Next Events',
 		description:
 			'Developer of a React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
-		stack: ['React', 'Next.js', 'JavaScript', 'SASS', 'REST APIs', 'Firebase', 'Material UI'],
+		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'React Food App',
 		description:
 			'Developer of a React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database',
-		stack: ['React', 'JavaScript', 'SASS', 'REST APIs', 'Firebase', 'Material UI'],
+		stack: ['React', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
 	},
 	{
 		name: 'Investraining',
 		description:
 			'Developer of a web portal crypto where it shows fluctuant live market data in real-time and statistical data about specific currencies',
-		stack: ['Angular', 'TypeScript', 'Material', 'SASS', 'REST APIs', 'WebSocket'],
+		stack: ['Angular', 'TypeScript', 'Material', 'REST APIs', 'WebSocket'],
 		sourceCode: 'https://github.com/gabmzzn/investraining',
 		livePreview: 'https://investraining.vercel.app/market',
 	},

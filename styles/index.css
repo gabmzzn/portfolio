@@ -6,35 +6,16 @@
 }
 
 .theme {
-	--background: rgb(30, 29, 28);
-	--background-bright: rgb(47, 46, 45);
+	--background: rgb(25, 28, 45);
+	--background-bright: rgb(35, 40, 55);
 	--font: rgb(255, 244, 228);
 	--font-hs: rgb(252, 224, 185);
+	--hover: rgb(252, 224, 185);
 	--primary: rgb(255, 200, 116);
 	--shadow: rgba(0, 0, 0, 0.40) 0px 6px 26px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	--shadow-nav: 0 0 30px rgba(0, 0, 0, 0.75)
 }
-
-/* .theme {
-	--background: rgb(236, 240, 243);
-	--background-alt: rgb(233, 233, 233);
-	--font: rgb(66, 66, 66);
-	--font-hs: rgb(0, 0, 0);
-	--primary: rgb(0, 201, 201);
-	--shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
-	--shadow-nav: 0 0 10px rgba(0, 0, 0, 0.3)
-}
-
-.theme {
-	--background: rgb(28, 35, 50);
-	--font: rgb(240, 240, 240);
-	--font-hs: #FFCC70;
-	--primary: #C3A6FB;
-	--hover: #5FCFE4;
-	--shadow: #0000006e 0px 5px 15px 0px;
-	--shadow-nav: 0 0 10px rgba(0, 0, 0, 0.3)
-} */
 
 main {
 	max-width: 1100px;
@@ -68,25 +49,6 @@ main {
 	color: var(--hover);
 }
 
-.link::before {
-	content: '';
-	display: inline;
-	width: 96%;
-	right: 2%;
-	left: 2%;
-	opacity: 0%;
-	height: 3px;
-	position: absolute;
-	bottom: 0;
-	background-color: var(--hover);
-	transition: opacity 0.4s;
-}
-
-.link:hover::before,
-.link:focus::before {
-	opacity: 100%;
-}
-
 .link--nav {
 	text-transform: lowercase;
 	font-weight: 500;
@@ -110,8 +72,7 @@ main {
 }
 
 .btn:hover {
-	filter: brightness(1.25);
-	/* background-color: var(--clr-bg-alt); */
+	color: var(--hover);
 }
 
 .btn--plain {
@@ -127,11 +88,6 @@ main {
 
 .btn--icon {
 	padding: 0;
-}
-
-.btn--icon:hover,
-.btn--icon:focus {
-	color: var(--primary);
 }
 
 .btn--icon:active {

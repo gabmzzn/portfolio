@@ -44,6 +44,10 @@
 	white-space: nowrap;
 }
 
+.btnOutline:hover {
+	border: 2px solid var(--hover);
+}
+
 .contact a {
 	margin: 15px 8px;
 }
