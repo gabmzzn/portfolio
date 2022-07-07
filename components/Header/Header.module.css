@@ -43,13 +43,13 @@
 
 @media (max-width: 970px) {
 	.header {
-		padding: 0 30px;
+		padding: 0 35px;
 		height: 3.8em;
-		box-shadow: 0 0 15px rgb(0 0 0 / 65%)
+		/* box-shadow: 0 0 15px rgb(0 0 0 / 65%) */
 	}
 
 	.shadow {
-		box-shadow: 0 0 15px rgb(0 0 0 / 65%);
+		box-shadow: var(--shadow-nav-mob);
 		transition: all 0s ease 0s;
 	}
 

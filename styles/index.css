@@ -18,15 +18,16 @@
 } */
 
 .theme {
-	--background: #1c1d21;
-	--background-bright: #23272f;
-	--font: #bcbfc7;
-	--font-hs: #bcbfc7;
+	--background: rgb(28, 29, 33);
+	--background-bright: rgb(35, 39, 47);
+	--font: rgb(188, 191, 199);
+	--font-hs: hwb(224 74% 22%);
 	--hover: rgb(255, 240, 197);
-	--primary: #ffda6d;
+	--primary: rgb(255, 218, 109);
 	--shadow: rgba(0, 0, 0, 0.40) 0px 6px 26px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-	--shadow-nav: 0 0 30px rgba(0, 0, 0, 0.75)
+	--shadow-nav: 0 0 30px rgba(8, 9, 13);
+	--shadow-nav-mob: 0 0 15px rgba(8, 9, 13)
 }
 
 main {
