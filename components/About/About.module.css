@@ -2,7 +2,6 @@
 	flex-direction: column;
 	margin-left: 2.6em;
 	padding-top: 9em;
-	width: 34.3em;
 	margin-bottom: 7em;
 }
 
@@ -40,11 +39,10 @@
 	flex-wrap: wrap;
 	margin-top: 2.4em;
 	align-items: center;
-	justify-content: space-between;
 }
 
 .contact a {
-	margin: 15px 5px 15px 0;
+	margin: 15px 7.1em 15px 0;
 }
 
 .btnOutline {
