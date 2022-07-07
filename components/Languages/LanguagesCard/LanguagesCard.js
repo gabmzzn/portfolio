@@ -7,7 +7,7 @@ const LanguagesCard = (props) => {
 
 	return (
 		<div className={css.language}>
-			<Image src={img} className={css.img} alt={title} />
+			<img src={img} className={css.img} alt={title} />
 			<h3>{title}</h3>
 			<h4>{subtitle}</h4>
 			<ul className={css.description}>
