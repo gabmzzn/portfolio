@@ -7,7 +7,7 @@ const EducationCard = ({ edu }) => {
 
 	return (
 		<div className={css.education}>
-			<Image src={img} className={css.img} alt={title} />
+			<img src={img} className={css.img} alt={title} />
 			<h3>{title}</h3>
 			<h4>{subtitle}</h4>
 			<ul className={css.info}>
