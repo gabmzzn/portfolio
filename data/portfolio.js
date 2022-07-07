@@ -5,7 +5,7 @@ const header = {
 
 const about = {
 	name: 'Juan Gabriel Mazzoleni',
-	role: 'and I\'m a Full Stack Developer',
+	role: 'a Full Stack Developer',
 	description:
 		'I live in Cordoba, Argentina, and I\'m a passionate multi-skilled developer and an information systems engineer student',
 	resume: '/CV - Juan Gabriel Mazzoleni.pdf',

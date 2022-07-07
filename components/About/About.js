@@ -19,7 +19,7 @@ const About = (props) => {
 			</h1>
 
 			{role && <h2 className={css.role}>{role}</h2>}
-			<p className={css.desc}>{description && description}</p>
+			<p className={css.desc}>{description}</p>
 
 			<div className={`${css.contact} center`}>
 				<a href={resume}
