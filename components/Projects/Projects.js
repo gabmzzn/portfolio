@@ -9,9 +9,9 @@ const Projects = (props) => {
 	if (!projects.length) return null
 
 	return (
-		<section id='experience' className='section projects'>
-			<h2 className='section__title'>Products, &nbsp; Experience, &nbsp; Projects</h2>
-			<div className={css.projects}>
+		<section id='experience' className={css.projects}>
+			<div className={css.projectsCards}>
+				<h2 className='section__title'>Products, &nbsp; Experience, &nbsp; Projects</h2>
 				{projects.map((project, i) => (
 					<ProjectCard key={i} project={project} />
 				))}

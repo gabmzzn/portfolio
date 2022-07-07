@@ -22,7 +22,6 @@ export default function Home() {
 
 	return (
 		<div className={`theme app`}>
-
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<title>Juan Gabriel Mazzoleni</title>
@@ -38,10 +37,9 @@ export default function Home() {
 				<Languages id="languages" title="Languages" data={languages} />
 				{/* <Recommendations recommendations={recommendations} /> */}
 				<Contact contact={contact} />
+				<ScrollToTop />
 			</main>
-
-			<ScrollToTop />
-			<Footer />
-		</div>
+			{/* <Footer /> */}
+		</div >
 	)
 }
