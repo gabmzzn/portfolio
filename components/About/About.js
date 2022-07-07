@@ -8,7 +8,7 @@ const About = (props) => {
 	const { name, role, description, resume, social } = about
 
 	return (
-		<div className={`${css.about} center`}>
+		<div className={css.about}>
 			<h2 className={css.hi}>
 				Hi, my name is
 			</h2>
@@ -22,14 +22,6 @@ const About = (props) => {
 			<p className={css.desc}>{description}</p>
 
 			<div className={`${css.contact} center`}>
-				<a href={resume}
-					aria-label='github'
-					target="_blank" rel="noreferrer"
-				>
-					<span type='button' className={`${css.btnOutline} btn`}>
-						Resume / cv
-					</span>
-				</a>
 				<a
 					href={social.github}
 					aria-label='github'
@@ -47,6 +39,14 @@ const About = (props) => {
 				>
 					<h5>LinkedIn</h5>
 					<LinkedInIcon />
+				</a>
+				<a href={resume}
+					aria-label='github'
+					target="_blank" rel="noreferrer"
+				>
+					<span type='button' className={`${css.btnOutline} btn`}>
+						Resume / cv
+					</span>
 				</a>
 			</div>
 		</div>
