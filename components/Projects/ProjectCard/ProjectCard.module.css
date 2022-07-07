@@ -32,3 +32,9 @@
 .project .link--icon {
 	margin-left: 0.5em;
 }
+
+@media (max-width: 845px) {
+	.project {
+		width: 100%;
+	}
+}
