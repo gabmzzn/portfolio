@@ -1,5 +1,5 @@
 import css from './EducationCard.module.css'
-import { Image } from 'next/image'
+import Image from 'next/image'
 
 const EducationCard = ({ edu }) => {
 
