@@ -1,4 +1,5 @@
 import css from './EducationCard.module.css'
+import { Image } from 'next/image'
 
 const EducationCard = ({ edu }) => {
 
@@ -6,7 +7,7 @@ const EducationCard = ({ edu }) => {
 
 	return (
 		<div className={css.education}>
-			<img src={img} className={css.img} />
+			<Image src={img} className={css.img} alt={title} />
 			<h3>{title}</h3>
 			<h4>{subtitle}</h4>
 			<ul className={css.info}>

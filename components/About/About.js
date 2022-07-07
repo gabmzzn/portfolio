@@ -22,7 +22,7 @@ const About = (props) => {
 
 				{role && <h2 className={css.role}>{role}</h2>}
 				<p className={css.desc}>
-					I live in Cordoba, Argentina, and I'm a passionate multi-skilled <br />
+					I live in Cordoba, Argentina, and I&apos;m a passionate multi-skilled <br />
 					developer and information systems engineer student
 				</p>
 

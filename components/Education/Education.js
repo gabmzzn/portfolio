@@ -1,4 +1,3 @@
-import uniqid from 'uniqid'
 import EducationCard from './EducationCard/EducationCard'
 import css from './Education.module.css'
 
@@ -12,8 +11,8 @@ const Education = (props) => {
 		<section id={id} className='section'>
 			<h2 className='section__title'>{title}</h2>
 			<div className={css.grid}>
-				{data.map((edu) => (
-					<EducationCard key={uniqid()} edu={edu} />
+				{data.map((edu, i) => (
+					<EducationCard key={i} edu={edu} />
 				))}
 			</div>
 		</section>
