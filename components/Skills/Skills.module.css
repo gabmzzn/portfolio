@@ -29,3 +29,8 @@
 	color: var(--hover);
 	transform: translateY(-4px);
 }
+
+.skills {
+	position: relative;
+	z-index: 10;
+}

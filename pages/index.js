@@ -28,8 +28,8 @@ export default function Home() {
 			<main>
 				<About about={about} />
 				<Projects projects={projects} />
-				<Education data={education} />
 				<Skills skills={skills} />
+				<Education data={education} />
 				<Learning data={certificates} />
 				<Languages data={languages} />
 				<Contact contact={contact} />

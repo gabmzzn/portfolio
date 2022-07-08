@@ -10,15 +10,15 @@
 	box-shadow: var(--shadow-nav);
 	border-bottom: 1px solid rgb(27, 27, 32);
 	transform: translateY(-80px);
-	transition: transform 0.6s;
+	transition: transform 0.5s;
 	padding: 0 3em;
-	z-index: 100;
+	z-index: 9000;
 }
 
 .shadow {
 	box-shadow: var(--shadow-nav);
 	transform: translateY(0px);
-	transition: transform 0.6s;
+	transition: transform 0.5s;
 }
 
 @media (max-width: 970px) {

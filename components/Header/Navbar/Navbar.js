@@ -10,7 +10,7 @@ const Navbar = () => {
 		'education',
 		'certificates',
 		'languages',
-		// 'recomm',
+		'testimonials',
 		'contact'
 	]
 
@@ -39,7 +39,6 @@ const Navbar = () => {
 					<li className={css.listItem} key={i}>
 						<a
 							href={`#${element}`}
-							onClick={toggleNavList}
 							className={css.link}
 						>
 							{element}

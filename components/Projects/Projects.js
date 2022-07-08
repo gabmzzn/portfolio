@@ -11,13 +11,11 @@ const Projects = (props) => {
 	return (
 		<section id='experience' className="dark">
 			<div className='content'>
-				<div className={css.container}>
-					<h2>Experience</h2>
-					<div className={css.cards}>
-						{projects.map((project, i) => (
-							<ProjectCard key={i} project={project} />
-						))}
-					</div>
+				<h2>Experience</h2>
+				<div className={css.cards}>
+					{projects.map((project, i) => (
+						<ProjectCard key={i} project={project} />
+					))}
 				</div>
 			</div>
 		</section>

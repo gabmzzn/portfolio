@@ -8,23 +8,25 @@ const Skills = (props) => {
 	if (!skills.length) return null
 
 	return (
-		<section id='skills' className='dark'>
+		<section id='skills' className='normal'>
 			<div className='content'>
 				<h2>Skills</h2>
-				{skills.map((skill, i) => (
-					<div key={i}>
-						<h4>
-							{skill.name}
-						</h4>
-						<ul className={css.list}>
-							{skill.skills.map((s, i) => (
-								<li key={i} className={css.item}>
-									{s}
-								</li>
-							))}
-						</ul>
-					</div>
-				))}
+				<div className={css.skills}>
+					{skills.map((skill, i) => (
+						<div key={i}>
+							<h4>
+								{skill.name}
+							</h4>
+							<ul className={css.list}>
+								{skill.skills.map((s, i) => (
+									<li key={i} className={css.item}>
+										{s}
+									</li>
+								))}
+							</ul>
+						</div>
+					))}
+				</div>
 			</div>
 		</section>
 	)

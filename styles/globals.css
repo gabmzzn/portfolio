@@ -24,10 +24,10 @@ h1,
 h2,
 h3,
 h4 {
+	font-family: 'Titillium Web', sans-serif;
 	line-height: 1.2;
 	color: var(--primary);
 	overflow: hidden;
-	z-index: 1;
 }
 
 h1 {
@@ -35,8 +35,13 @@ h1 {
 }
 
 h2 {
-	font-size: 3rem;
-	padding-bottom: 1.5em;
+	font-size: 13rem;
+	margin-bottom: 0.2em;
+	z-index: 0;
+}
+
+.content h2 {
+	text-align: center;
 }
 
 h3 {
@@ -87,17 +92,23 @@ main {
 
 .dark,
 .normal {
-	padding: 8em 3em 8em;
-}
-
-.dark {
-	background-image: var(--background-image);
+	padding: 0em 3em 8em;
 }
 
 .dark {
 	background-color: var(--background-bright);
+	background-image: var(--background-image);
 }
 
+.dark h2 {
+	color: var(--background);
+	text-transform: lowercase;
+}
+
+.normal h2 {
+	color: var(--background-bright);
+	text-transform: lowercase;
+}
 
 .content {
 	margin: 0 auto;
@@ -121,15 +132,16 @@ main {
 	}
 }
 
-/* #experience,
-	#skills,
-	#education,
-	#certificates,
-	#languages,
-	#recomm,
-	#contact {
-		padding-bottom: 2.5em;
-	} */
+#experience,
+#skills,
+#education,
+#certificates,
+#languages,
+#recomm,
+#contact {
+	scroll-margin-top: 4rem;
+	scroll-snap-margin-top: 4rem;
+}
 
 /* width */
 ::-webkit-scrollbar {

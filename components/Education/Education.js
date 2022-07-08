@@ -8,7 +8,7 @@ const Education = (props) => {
 	if (!data.length) return null
 
 	return (
-		<section id='education' className='normal'>
+		<section id='education' className='dark'>
 			<div className='content'>
 				<h2>Education</h2>
 				<div className={css.grid}>
