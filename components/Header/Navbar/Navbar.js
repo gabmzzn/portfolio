@@ -14,9 +14,10 @@ const Navbar = () => {
 		'contact'
 	]
 
-	const [showNavList, setShowNavList] = useState(false)
+	const [navList, setNavList] = useState(false)
 
-	const toggleNavList = () => setShowNavList(!showNavList)
+	const hideNavList = () => setNavList(false)
+	const toggleNavList = () => setNavList(!navList)
 
 	return (
 		<nav className={css.navbar}>
@@ -29,7 +30,7 @@ const Navbar = () => {
 					</g>
 				</svg>
 			</a>
-			<ul className={`${css.list} ${showNavList ? css.visible : css.invisible}`}>
+			<ul className={`${css.list} ${navList ? css.visible : css.invisible}`}>
 				<li className={`${css.listItem} ${css.about}`}>
 					<a href={'#'} onClick={toggleNavList} className={css.link}>
 						about
@@ -37,7 +38,11 @@ const Navbar = () => {
 				</li>
 				{navbar.map((element, i) =>
 					<li className={css.listItem} key={i}>
-						<a href={`#${element}`} className={css.link}>
+						<a
+							href={`#${element}`}
+							className={css.link}
+							onClick={hideNavList}
+						>
 							{element}
 						</a>
 					</li>
@@ -49,7 +54,7 @@ const Navbar = () => {
 				className={`${css.hamburger}`}
 				aria-label='toggle navigation'
 			>
-				<Hamburger toggled={showNavList} toggle={toggleNavList} />
+				<Hamburger toggled={navList} toggle={toggleNavList} />
 			</button>
 		</nav>
 	)
