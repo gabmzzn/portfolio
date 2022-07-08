@@ -36,7 +36,7 @@
 
 	h2 {
 		font-size: 3rem;
-		padding: 1em 0;
+		padding-bottom: 1em;
 	}
 
 	h3 {
@@ -86,7 +86,7 @@
 
 	.dark,
 	.normal {
-		padding: 0 3em;
+		padding: 5em 3em 6em 3em;
 	}
 
 	.dark {
@@ -128,7 +128,7 @@
 		}
 	}
 
-	#experience,
+	/* #experience,
 	#skills,
 	#education,
 	#certificates,
@@ -136,4 +136,4 @@
 	#recomm,
 	#contact {
 		padding-bottom: 2.5em;
-	}
+	} */
