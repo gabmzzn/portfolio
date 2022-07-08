@@ -37,10 +37,7 @@ const Navbar = () => {
 				</li>
 				{navbar.map((element, i) =>
 					<li className={css.listItem} key={i}>
-						<a
-							href={`#${element}`}
-							className={css.link}
-						>
+						<a href={`#${element}`} className={css.link}>
 							{element}
 						</a>
 					</li>
