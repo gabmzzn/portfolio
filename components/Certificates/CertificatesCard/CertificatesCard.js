@@ -12,17 +12,15 @@ const CertificatesCard = ({ learn }) => {
 			<p className={css.description}>{description}</p>
 			<ul className={css.stack}>{info}</ul>
 			{link && (
-				<div style={{ display: 'flex', justifyContent: 'center' }}>
-					<a
-						href={link}
-						aria-label='certificate'
-						className={`${css.linkIcon} link`}
-						target='_blank' rel="noreferrer"
-					>
-						<h5>Certificate</h5>
-						<LaunchIcon />
-					</a>
-				</div>
+				<a
+					href={link}
+					aria-label='certificate'
+					className={`${css.linkIcon} link`}
+					target='_blank' rel="noreferrer"
+				>
+					<h5>Certificate</h5>
+					<LaunchIcon />
+				</a>
 			)}
 		</div>)
 

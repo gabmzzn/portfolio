@@ -2,8 +2,8 @@
 	padding: 2em;
 	border-radius: 50px;
 	margin: 0 auto;
-	text-align: center;
-	border: 2px solid rgb(255 200 116 / 6%);
+	/* text-align: center; */
+	/* border: 2px solid rgb(255 200 116 / 6%); */
 }
 
 .learning h3 {
@@ -17,7 +17,7 @@
 .stack {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	/* justify-content: center; */
 	margin: 1.2em 0;
 }
 
@@ -30,7 +30,6 @@
 
 .learning .linkIcon {
 	display: flex;
-	margin-left: 0.5em;
 }
 
 .linkIcon svg {
