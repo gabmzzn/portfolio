@@ -14,9 +14,9 @@ const Skills = (props) => {
 				<div className={css.skills}>
 					{skills.map((skill, i) => (
 						<div key={i}>
-							<h4>
+							<h1>
 								{skill.name}
-							</h4>
+							</h1>
 							<ul className={css.list}>
 								{skill.skills.map((s, i) => (
 									<li key={i} className={css.item}>

@@ -1,8 +1,8 @@
 import uniqid from 'uniqid'
-import ProjectCard from './ProjectCard/ProjectCard'
-import css from './Projects.module.css'
+import ExperienceCard from './ExperienceCard/ExperienceCard'
+import css from './Experience.module.css'
 
-const Projects = (props) => {
+const Experience = (props) => {
 
 	const { projects } = props
 
@@ -14,7 +14,7 @@ const Projects = (props) => {
 				<h2>Experience</h2>
 				<div className={css.cards}>
 					{projects.map((project, i) => (
-						<ProjectCard key={i} project={project} />
+						<ExperienceCard key={i} project={project} />
 					))}
 				</div>
 			</div>
@@ -22,4 +22,4 @@ const Projects = (props) => {
 	)
 }
 
-export default Projects
+export default Experience

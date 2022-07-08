@@ -1,17 +1,16 @@
-import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
-import css from './ProjectCard.module.css'
+import css from './ExperienceCard.module.css'
 
-const ProjectCard = ({ project }) => (
+const ExperienceCard = ({ project }) => (
 	<div className={css.project}>
 		<h3>{project.name}</h3>
 
 		<p className={css.description}>{project.description}</p>
 		{project.stack && (
 			<ul className={css.stack}>
-				{project.stack.map((item) => (
-					<li key={uniqid()} className={css.stackItem}>
+				{project.stack.map((item, i) => (
+					<li key={i} className={css.stackItem}>
 						{item}
 					</li>
 				))}
@@ -45,4 +44,4 @@ const ProjectCard = ({ project }) => (
 	</div>
 )
 
-export default ProjectCard
+export default ExperienceCard

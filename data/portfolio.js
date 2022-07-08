@@ -80,7 +80,7 @@ const skills = [
 	{
 		name: 'Development',
 		skills: [
-			'React', 'Redux', 'Next.js', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Material UI', 'Node.js', 'Express.js', 'SQL', 'REST APIs', 'WebSocket']
+			'React', 'Redux', 'Next.js', 'TypeScript', 'JavaScript', 'HTML CSS', 'Material UI', 'Node.js', 'Express.js', 'SQL', 'REST APIs', 'WebSocket']
 	},
 	{
 		name: 'Soft Skills',
@@ -89,9 +89,7 @@ const skills = [
 			'Communication',
 			'Teamwork',
 			'Empathy',
-			'Critical thinking',
 			'Openness to criticism',
-			'Problem solving',
 			'Attention to detail',
 			'Creativity'
 		]
@@ -165,7 +163,7 @@ const languages = [
 	{
 		title: 'English',
 		subtitle: 'Advanced Level',
-		description: ['Excelent writing and reading', 'Good listening', 'Good verbal skill'],
+		description: ['Very good writing, reading,', 'listening, and verbal skill'],
 		img: './gb.svg'
 	},
 	{

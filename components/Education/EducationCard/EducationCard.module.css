@@ -3,8 +3,13 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 1em 2em 0 2em;
-	border-radius: 16px;
+	width: 50%;
+}
+
+@media (max-width: 845px) {
+	.education {
+		width: 100%;
+	}
 }
 
 .education h3 {
@@ -12,9 +17,7 @@
 }
 
 .education ul {
-	font-size: 1.1rem;
-	text-align: left;
-	list-style-type: disc;
+	width: 100%;
 }
 
 .info {
@@ -28,7 +31,7 @@
 
 .img {
 	filter: invert(79%) sepia(70%) saturate(337%) hue-rotate(355deg) brightness(103%) contrast(103%);
-	height: 50px;
+	height: 90px;
 	margin-bottom: 25px;
 	image-rendering: crisp-edges;
 }

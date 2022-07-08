@@ -8,7 +8,7 @@ const LanguagesCard = (props) => {
 	return (
 		<div className={css.language}>
 			<img src={img} className={css.img} alt={title} />
-			<h3>{title}</h3>
+			<h1>{title}</h1>
 			<h4>{subtitle}</h4>
 			<ul className={css.description}>
 				{description.map((d, i) => <li key={i}>{d}</li>)}

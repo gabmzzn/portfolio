@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=block');
 
 .container {
-	padding: 8.5em 3em 9em 3em;
+	padding: 8.5em 5em 9em;
 }
 
 .flexbox {
@@ -57,8 +57,11 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 2.4em;
+	justify-content: space-between;
 	align-items: center;
 }
+
+
 
 .contact a {
 	margin: 15px 5.7em 15px 0;
@@ -70,24 +73,6 @@
 
 .linkIcon svg {
 	margin: 0 0 0 5px;
-}
-
-@media (max-width: 800px) {
-	.about {
-		padding-top: 6.2em;
-	}
-
-	.hi {
-		font-size: 2.2rem !important;
-	}
-
-	.name {
-		font-size: 3rem !important;
-	}
-
-	.role {
-		font-size: 1.9rem !important;
-	}
 }
 
 .btn {
@@ -151,8 +136,43 @@
 	opacity: 100%;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1050px) {
 	.navList {
 		display: none;
+	}
+
+	.container {
+		padding: 6em 2em 8em;
+	}
+
+	.name p:first-child {
+		margin-left: -3px;
+	}
+
+	.name p:last-child {
+		margin-left: -2px;
+	}
+}
+
+@media (max-width: 800px) {
+
+	.contact {
+		justify-content: center;
+	}
+
+	.container {
+		padding: 6em 2em 4em;
+	}
+
+	.hi {
+		font-size: 2.2rem !important;
+	}
+
+	.name {
+		font-size: 3rem !important;
+	}
+
+	.role {
+		font-size: 1.9rem !important;
 	}
 }

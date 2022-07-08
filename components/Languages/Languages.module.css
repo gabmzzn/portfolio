@@ -1,7 +1,7 @@
 .grid {
 	position: relative;
 	max-width: 1100px;
-	margin: 0 auto;
+	margin: 5.5em auto 4.5em;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
 	grid-gap: 2em;

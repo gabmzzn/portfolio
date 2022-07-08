@@ -14,33 +14,40 @@ const Contact = (props) => {
 		<section className="normal" id='contact'>
 			<div className='content'>
 				<h2>Contact</h2>
-				<p className={css.description}>
-					I am looking for job opportunities,
-					and would love to connect!<br />
-					Drop me an email at <b>gabmzzn@gmail.com</b>&nbsp;
-					<a href={`mailto:${contact.email}`}
-						className={`${css.linkIcon} link`}
-						target="_blank" rel="noreferrer">
-						<MailIcon />
-					</a><br />
-					Call me or send a whatsapp message at <b>+54 351 772 4983</b>&nbsp;
-					<a href={`tel:+543517724983`}
-						className={`${css.linkIcon} link`}
-						target="_blank" rel="noreferrer">
-						<PhoneIcon />
-					</a><br />
-					Or just reach me at &nbsp;
-					<a
-						href={'https://www.linkedin.com/in/juan-gabriel-mazzoleni/'}
-						aria-label='linkedin'
-						className={`${css.linkIcon} link`}
-						target="_blank" rel="noreferrer"
-					>
-						<span>LinkedIn</span>
-						&nbsp;
-						<LinkedInIcon />
-					</a>
-				</p>
+				<div className={css.description}>
+					<p>
+						I am looking for job opportunities,
+						and would love to connect!
+					</p>
+					<p>
+						Drop me an email at&nbsp;<b>gabmzzn@gmail.com</b>&nbsp;
+						<a href={`mailto:${contact.email}`}
+							className={`${css.linkIcon} link`}
+							target="_blank" rel="noreferrer">
+							<MailIcon />
+						</a>
+					</p>
+					<p>
+						Call me or send a whatsapp message at&nbsp;<b>+54 351 772 4983</b>&nbsp;
+						<a href={`tel:+543517724983`}
+							className={`${css.linkIcon} link`}>
+							<PhoneIcon />
+						</a>
+					</p>
+					<p>
+						Or just reach me at my&nbsp;
+						<a
+							href={'https://www.linkedin.com/in/juan-gabriel-mazzoleni/'}
+							aria-label='linkedin'
+							className={`link`}
+							target="_blank" rel="noreferrer"
+						>
+							<b>LinkedIn</b>
+							&nbsp;
+							<LinkedInIcon />
+						</a>&nbsp;profile 😉
+					</p>
+				</div>
 			</div>
 		</section>
 	)

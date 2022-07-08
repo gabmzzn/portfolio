@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header/Header'
 import About from '../components/About/About'
-import Projects from '../components/Projects/Projects'
+import Experience from '../components/Experience/Experience'
 import Skills from '../components/Skills/Skills'
 import Learning from '../components/Certificates/Certificates'
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop'
@@ -9,7 +9,6 @@ import Contact from '../components/Contact/Contact'
 import * as portfolio from '../data/portfolio'
 import Education from '../components/Education/Education'
 import Languages from '../components/Languages/Languages'
-import ReactPageScroller from 'react-page-scroller'
 
 export default function Home() {
 
@@ -27,7 +26,7 @@ export default function Home() {
 			<Header />
 			<main>
 				<About about={about} />
-				<Projects projects={projects} />
+				<Experience projects={projects} />
 				<Skills skills={skills} />
 				<Education data={education} />
 				<Learning data={certificates} />

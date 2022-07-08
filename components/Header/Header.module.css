@@ -11,7 +11,7 @@
 	border-bottom: 1px solid rgb(27, 27, 32);
 	transform: translateY(-80px);
 	transition: transform 0.5s;
-	padding: 0 3em;
+	padding: 0em 5em;
 	z-index: 9000;
 }
 
@@ -21,7 +21,7 @@
 	transition: transform 0.5s;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1050px) {
 	.header {
 		height: 3.8em;
 		padding: 0 2em;
