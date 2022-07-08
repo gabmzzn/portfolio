@@ -85,7 +85,7 @@
 		height: 100%;
 		font-size: 26px !important;
 		background-color: var(--background);
-		z-index: 250;
+		z-index: 1250;
 	}
 
 	.listItem {
@@ -98,7 +98,7 @@
 		background-color: transparent;
 		-webkit-tap-highlight-color: transparent;
 		transition: visibility 0.3s, opacity 0.3s;
-		z-index: 300;
+		z-index: 5000;
 	}
 
 	.hamburger:hover {

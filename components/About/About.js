@@ -66,19 +66,17 @@ const About = (props) => {
 							</a>
 						</div>
 					</div>
-					<div>
-						<div className={css.navList}>
-							{navbar.map((element, i) =>
-								<li className={css.listItem} key={i}>
-									<a
-										href={`#${element}`}
-										className={css.link}
-									>
-										{element}
-									</a>
-								</li>
-							)}
-						</div>
+					<div className={css.navList}>
+						{navbar.map((element, i) =>
+							<li className={css.listItem} key={i}>
+								<a
+									href={`#${element}`}
+									className={css.link}
+								>
+									{element}
+								</a>
+							</li>
+						)}
 					</div>
 				</div>
 			</div>

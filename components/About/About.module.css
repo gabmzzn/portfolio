@@ -142,3 +142,10 @@
 .navList li:focus::before {
 	opacity: 100%;
 }
+
+@media (max-width: 970px) {
+	.navList {
+		display: none;
+	}
+
+}

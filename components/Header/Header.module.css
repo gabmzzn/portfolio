@@ -25,9 +25,11 @@
 	.header {
 		height: 3.8em;
 		padding: 0 2em;
+		transform: none;
 	}
 
 	.shadow {
+		transform: none;
 		transition: all 0s ease 0s;
 	}
 
