@@ -9,6 +9,7 @@
 	visibility: hidden;
 	opacity: 0%;
 	transition: all 0.4s;
+	z-index: 1000;
 }
 
 .top:hover {

@@ -11,7 +11,7 @@ const Certificates = (props) => {
 		<section id='certificates' className='normal'>
 			<div className='content'>
 				<h2>Certificates</h2>
-				<div className={css.grid}>
+				<div className={css.certificates}>
 					{data.map((learn, i) => (
 						<CertificatesCard key={i} learn={learn} />
 					))}

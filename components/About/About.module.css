@@ -2,12 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
 
+.container {
+	padding: 11em 3em 9em 3em;
+}
 
-.about {
-	flex-direction: column;
-	padding-top: 11em;
-	padding-bottom: 9em;
+.flexbox {
+	display: flex;
 	margin-bottom: 7em;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .about h1,
@@ -98,4 +101,44 @@
 .btn:hover {
 	border: 2px solid var(--hover);
 	color: var(--hover);
+}
+
+.navList {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--font);
+	font-size: 2rem;
+}
+
+
+.navList li {
+	padding: 0.6em 0;
+	position: relative;
+}
+
+.navList li:hover {
+	color: var(--primary);
+}
+
+.navList li::before {
+	content: '';
+	display: inline;
+	width: 90%;
+	right: 5%;
+	left: 5%;
+	top: 80%;
+	opacity: 0%;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	background-color: var(--primary);
+	transition: opacity 0.4s;
+}
+
+.navList li:hover::before,
+.navList li:focus::before {
+	opacity: 100%;
 }
