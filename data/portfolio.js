@@ -176,7 +176,7 @@ const languages = [
 	}
 ]
 
-const recommendations = [
+const testimonials = [
 	{
 		title: 'Anastasiia',
 	},
@@ -192,4 +192,4 @@ const contact = {
 	email: 'gabmzzn@gmail.com',
 }
 
-export { header, about, projects, education, certificates, skills, languages, recommendations, contact }
+export { header, about, projects, education, certificates, skills, languages, testimonials, contact }

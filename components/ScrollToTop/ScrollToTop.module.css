@@ -16,7 +16,6 @@
 	color: var(--primary);
 }
 
-
 .visible {
 	opacity: 100%;
 	visibility: visible;

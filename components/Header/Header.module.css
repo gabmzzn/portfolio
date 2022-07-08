@@ -3,7 +3,6 @@
 	justify-content: center;
 	width: 100%;
 	position: fixed;
-	padding: 0 50px;
 	background-color: var(--background);
 	height: 4.2em;
 	margin: 0 auto;
@@ -19,7 +18,6 @@
 
 @media (max-width: 970px) {
 	.header {
-		padding: 0 35px;
 		height: 3.8em;
 	}
 

@@ -57,3 +57,277 @@
 		url('../public/fonts/poppins-v20-latin-700.svg#Poppins') format('svg');
 	/* Legacy iOS */
 }
+
+
+@font-face {
+	font-family: 'Voga';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../public/fonts/Voga-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Voga';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../public/fonts/Voga-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Voga';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../public/fonts/Voga-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic.eot');
+	src: local('Narziss Pro Cyrillic'), local('NarzissProCyrillic'),
+		url('../public/fonts/NarzissProCyrillic.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls-ExtraB.eot');
+	src: local('Narziss Pro Cyrillic Swirls ExtraBold'), local('NarzissProCyrillicSwirls-ExtraB'),
+		url('../public/fonts/NarzissProCyrillicSwirls-ExtraB.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls-ExtraB.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls-ExtraB.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls-ExtraB.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls.eot');
+	src: local('Narziss Pro Cyrillic Swirls'), local('NarzissProCyrillicSwirls'),
+		url('../public/fonts/NarzissProCyrillicSwirls.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops-ExtraBo.eot');
+	src: local('Narziss Pro Cyrillic Drops ExtraBold'), local('NarzissProCyrillicDrops-ExtraBo'),
+		url('../public/fonts/NarzissProCyrillicDrops-ExtraBo.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops-ExtraBo.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops-ExtraBo.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops-ExtraBo.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops-SemiBol.eot');
+	src: local('Narziss Pro Cyrillic Drops SemiBold'), local('NarzissProCyrillicDrops-SemiBol'),
+		url('../public/fonts/NarzissProCyrillicDrops-SemiBol.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops-SemiBol.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops-SemiBol.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops-SemiBol.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic-Heavy.eot');
+	src: local('Narziss Pro Cyrillic Heavy'), local('NarzissProCyrillic-Heavy'),
+		url('../public/fonts/NarzissProCyrillic-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic-Heavy.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic-Heavy.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls-Medium.eot');
+	src: local('Narziss Pro Cyrillic Swirls Medium'), local('NarzissProCyrillicSwirls-Medium'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Medium.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Medium.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops-Bold.eot');
+	src: local('Narziss Pro Cyrillic Drops Bold'), local('NarzissProCyrillicDrops-Bold'),
+		url('../public/fonts/NarzissProCyrillicDrops-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops-Bold.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops-Bold.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic-Ultra.eot');
+	src: local('Narziss Pro Cyrillic Ultra'), local('NarzissProCyrillic-Ultra'),
+		url('../public/fonts/NarzissProCyrillic-Ultra.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic-Ultra.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic-Ultra.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic-Ultra.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops-Ultra.eot');
+	src: local('Narziss Pro Cyrillic Drops Ultra'), local('NarzissProCyrillicDrops-Ultra'),
+		url('../public/fonts/NarzissProCyrillicDrops-Ultra.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops-Ultra.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops-Ultra.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops-Ultra.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic-ExtraBold.eot');
+	src: local('Narziss Pro Cyrillic ExtraBold'), local('NarzissProCyrillic-ExtraBold'),
+		url('../public/fonts/NarzissProCyrillic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic-ExtraBold.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic-ExtraBold.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic-Bold.eot');
+	src: local('Narziss Pro Cyrillic Bold'), local('NarzissProCyrillic-Bold'),
+		url('../public/fonts/NarzissProCyrillic-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic-Bold.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic-Bold.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops-Heavy.eot');
+	src: local('Narziss Pro Cyrillic Drops Heavy'), local('NarzissProCyrillicDrops-Heavy'),
+		url('../public/fonts/NarzissProCyrillicDrops-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops-Heavy.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops-Heavy.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic-Medium.eot');
+	src: local('Narziss Pro Cyrillic Medium'), local('NarzissProCyrillic-Medium'),
+		url('../public/fonts/NarzissProCyrillic-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic-Medium.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic-Medium.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops.eot');
+	src: local('Narziss Pro Cyrillic Drops'), local('NarzissProCyrillicDrops'),
+		url('../public/fonts/NarzissProCyrillicDrops.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Drops';
+	src: url('../public/fonts/NarzissProCyrillicDrops-Medium.eot');
+	src: local('Narziss Pro Cyrillic Drops Medium'), local('NarzissProCyrillicDrops-Medium'),
+		url('../public/fonts/NarzissProCyrillicDrops-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicDrops-Medium.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicDrops-Medium.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicDrops-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls-SemiBo.eot');
+	src: local('Narziss Pro Cyrillic Swirls SemiBold'), local('NarzissProCyrillicSwirls-SemiBo'),
+		url('../public/fonts/NarzissProCyrillicSwirls-SemiBo.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls-SemiBo.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls-SemiBo.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls-SemiBo.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro';
+	src: url('../public/fonts/NarzissProCyrillic-SemiBold.eot');
+	src: local('Narziss Pro Cyrillic SemiBold'), local('NarzissProCyrillic-SemiBold'),
+		url('../public/fonts/NarzissProCyrillic-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillic-SemiBold.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillic-SemiBold.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillic-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls-Heavy.eot');
+	src: local('Narziss Pro Cyrillic Swirls Heavy'), local('NarzissProCyrillicSwirls-Heavy'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Heavy.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Heavy.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls-Bold.eot');
+	src: local('Narziss Pro Cyrillic Swirls Bold'), local('NarzissProCyrillicSwirls-Bold'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Bold.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Bold.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Narziss Pro Swirls';
+	src: url('../public/fonts/NarzissProCyrillicSwirls-Ultra.eot');
+	src: local('Narziss Pro Cyrillic Swirls Ultra'), local('NarzissProCyrillicSwirls-Ultra'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Ultra.eot?#iefix') format('embedded-opentype'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Ultra.woff2') format('woff2'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Ultra.woff') format('woff'),
+		url('../public/fonts/NarzissProCyrillicSwirls-Ultra.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -9,7 +9,7 @@ const About = (props) => {
 
 
 	return (
-		<div>
+		<section>
 			<div className={css.about}>
 				<h2 className={css.hi}>
 					Hi, my name is
@@ -55,7 +55,7 @@ const About = (props) => {
 					</a>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

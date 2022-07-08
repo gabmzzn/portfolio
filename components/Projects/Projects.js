@@ -10,11 +10,13 @@ const Projects = (props) => {
 
 	return (
 		<section id='experience' className={css.projects}>
-			<div className={css.projectsCards}>
+			<div className={css.container}>
 				<h2 className='section__title'>Products, &nbsp; Experience, &nbsp; Projects</h2>
-				{projects.map((project, i) => (
-					<ProjectCard key={i} project={project} />
-				))}
+				<div className={css.cards}>
+					{projects.map((project, i) => (
+						<ProjectCard key={i} project={project} />
+					))}
+				</div>
 			</div>
 		</section>
 	)

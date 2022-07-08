@@ -1,4 +1,4 @@
-.projectsCards {
+.container {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -9,7 +9,7 @@
 	}
 }
 
-.projects:before {
+/* .projects:before {
 	content: "";
 	background-color: var(--background-bright);
 	position: absolute;
@@ -17,4 +17,10 @@
 	width: 100%;
 	left: 0;
 	z-index: 0;
+} */
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1.5em;
 }

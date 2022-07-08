@@ -1,9 +1,4 @@
-import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
-import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
-import { ThemeContext } from '../../../contexts/theme'
+import { useState } from 'react'
 import { Cross as Hamburger } from 'hamburger-react'
 import css from './Navbar.module.css'
 
@@ -19,7 +14,6 @@ const Navbar = () => {
 		'contact'
 	]
 
-	const [{ themeName, toggleTheme }] = useContext(ThemeContext)
 	const [showNavList, setShowNavList] = useState(false)
 
 	const toggleNavList = () => setShowNavList(!showNavList)
