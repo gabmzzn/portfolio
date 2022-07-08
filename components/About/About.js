@@ -26,9 +26,10 @@ const About = (props) => {
 							Hi, my name is
 						</div>
 						<h1>
-							<span className={css.name}>
-								Juan Gabriel <br />Mazzoleni
-							</span>
+							<div className={css.name}>
+								<p>Juan Gabriel</p>
+								<p>Mazzoleni</p>
+							</div>
 						</h1>
 
 						<div className={css.role}>{role}</div>

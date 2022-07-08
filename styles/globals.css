@@ -8,16 +8,14 @@
 	font-size: inherit;
 	box-shadow: none;
 	box-sizing: border-box;
-	-webkit-tap-highlight-color: rgba(255, 199, 116, 0.1);
+	-webkit-tap-highlight-color: var(--background-bright);
+	-webkit-font-smoothing: antialiased;
 }
 
 html {
 	scroll-behavior: smooth;
 	overflow: overlay;
 	cursor: default;
-	/* --background-image: url("https://www.transparenttextures.com/patterns/black-felt.png"); */
-	/* --background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png"); */
-	/* --background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png"); */
 }
 
 h1,
@@ -32,6 +30,7 @@ h4 {
 
 h1 {
 	font-size: 4rem;
+	overflow: visible;
 }
 
 h2 {
@@ -80,11 +79,11 @@ main {
 .theme {
 	--background: hwb(228 11% 85%);
 	--background-bright: hwb(220 14% 80%);
-	--background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+	--background-image: url("../public/navy.png");
 	--font: rgb(188, 191, 199);
 	--font-hs: hwb(224 74% 22%);
 	--hover: rgb(255, 240, 197);
-	--primary: rgb(255, 232, 105);
+	--primary: #ffe869;
 	--shadow: rgba(0, 0, 0, 0.40) 0px 6px 26px 0px,
 		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	--shadow-nav: 0 0 15px rgba(0, 0, 10, 1)

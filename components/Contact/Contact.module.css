@@ -1,10 +1,10 @@
 .description {
 	position: relative;
-	max-width: 700px;
+	text-align: center;
 	font-size: 20px;
 	flex-direction: column;
 	line-height: 3em;
-	height: 400px;
+	height: 600px;
 }
 
 .description a {
