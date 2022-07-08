@@ -1,7 +1,7 @@
-import css from './LearningCard.module.css'
+import css from './CertificatesCard.module.css'
 import LaunchIcon from '@material-ui/icons/Launch'
 
-const LearningCard = ({ learn }) => {
+const CertificatesCard = ({ learn }) => {
 
 	const { title, subtitle, description, info, link } = learn
 
@@ -27,4 +27,4 @@ const LearningCard = ({ learn }) => {
 		</div>)
 
 }
-export default LearningCard
+export default CertificatesCard

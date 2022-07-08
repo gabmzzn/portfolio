@@ -9,13 +9,14 @@ const Languages = (props) => {
 	if (!data.length) return null
 
 	return (
-		<section id={id} className='section'>
-			<h2 className='section__title'>{title}</h2>
-
-			<div className={css.grid}>
-				{data.map((lang) => (
-					<LanguagesCard key={uniqid()} data={lang} />
-				))}
+		<section id="languages" className='dark'>
+			<div className='content'>
+				<h2>Languages</h2>
+				<div className={css.grid}>
+					{data.map((lang, i) => (
+						<LanguagesCard key={i} data={lang} />
+					))}
+				</div>
 			</div>
 		</section>
 	)

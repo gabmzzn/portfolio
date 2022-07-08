@@ -4,10 +4,12 @@
 	width: 100%;
 	position: fixed;
 	background-color: var(--background);
+	background-image: var(--background-image);
 	height: 4.2em;
 	margin: 0 auto;
 	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 	transition: box-shadow 0.2s;
+	padding: 0 3em;
 	z-index: 100;
 }
 
@@ -19,6 +21,7 @@
 @media (max-width: 970px) {
 	.header {
 		height: 3.8em;
+		padding: 0 2em;
 	}
 
 	.shadow {

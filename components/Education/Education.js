@@ -8,12 +8,14 @@ const Education = (props) => {
 	if (!data.length) return null
 
 	return (
-		<section id={id} className='section'>
-			<h2 className='section__title'>{title}</h2>
-			<div className={css.grid}>
-				{data.map((edu, i) => (
-					<EducationCard key={i} edu={edu} />
-				))}
+		<section id='education' className='normal'>
+			<div className='content'>
+				<h2>Education</h2>
+				<div className={css.grid}>
+					{data.map((edu, i) => (
+						<EducationCard key={i} edu={edu} />
+					))}
+				</div>
 			</div>
 		</section>
 	)

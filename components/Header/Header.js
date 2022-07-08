@@ -13,7 +13,7 @@ const Header = () => {
 	}, [])
 
 	return (
-		<header className={`${css.header} ${scroll ? css.shadow : ''} center`}>
+		<header className={`${css.header} ${scroll ? css.shadow : ''}`}>
 			<Navbar />
 		</header>
 	)

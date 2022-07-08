@@ -30,7 +30,8 @@ h1 {
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 5rem;
+	padding: 1em 0;
 }
 
 h3 {
@@ -51,4 +52,86 @@ a {
 
 button {
 	cursor: pointer;
+}
+
+main {
+	margin: 0 auto;
+}
+
+.app {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+	color: var(--font);
+	background-color: var(--background);
+	background-image: var(--background-image);
+}
+
+.theme {
+	--background: #1c1d21;
+	--background-bright: rgb(35, 39, 47);
+	/* --background-image: url("https://www.transparenttextures.com/patterns/black-felt.png"); */
+	--background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+	/* --background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png"); */
+	/* --background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png"); */
+	--font: rgb(188, 191, 199);
+	--font-hs: hwb(224 74% 22%);
+	--hover: rgb(255, 240, 197);
+	--primary: rgb(255, 232, 105);
+	--shadow: rgba(0, 0, 0, 0.40) 0px 6px 26px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	--shadow-nav: 0 0 20px rgba(0, 0, 3)
+}
+
+.dark,
+.normal {
+	padding: 0 3em;
+}
+
+.dark {
+	background-image: var(--background-image);
+}
+
+@media (max-width: 970px) {
+
+	.dark,
+	.normal {
+		padding: 0 2em;
+	}
+}
+
+.dark {
+	background-color: var(--background-bright);
+}
+
+
+.content {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.link {
+	color: var(--primary);
+	padding: 0 0 0.3em 0;
+	position: relative;
+	transition: color 0.5s;
+}
+
+.link:hover {
+	color: var(--hover);
+}
+
+@media (max-width: 600px) {
+	.section {
+		margin-top: 4em;
+	}
+}
+
+#experience,
+#skills,
+#education,
+#certificates,
+#languages,
+#recomm,
+#contact {
+	padding-bottom: 2.5em;
 }

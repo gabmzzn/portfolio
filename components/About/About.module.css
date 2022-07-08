@@ -5,7 +5,7 @@
 
 .about {
 	flex-direction: column;
-	padding-top: 14em;
+	padding-top: 11em;
 	padding-bottom: 9em;
 	margin-bottom: 7em;
 }
@@ -29,10 +29,13 @@
 
 .hi {
 	font-size: 2.8rem;
+	font-weight: bold;
 	margin-bottom: 0.3em;
 }
 
 .role {
+	font-size: 2.8rem;
+	font-weight: bold;
 	margin-top: 0.55em;
 }
 
@@ -51,14 +54,6 @@
 
 .contact a {
 	margin: 15px 7.1em 15px 0;
-}
-
-.btnOutline {
-	white-space: nowrap;
-}
-
-.btnOutline:hover {
-	border: 2px solid var(--hover);
 }
 
 .about .linkIcon {
@@ -85,4 +80,22 @@
 	.role {
 		font-size: 1.9rem !important;
 	}
+}
+
+.btn {
+	/* display: block; */
+	border-radius: 12px;
+	color: var(--primary);
+	border: 2px solid var(--primary);
+	cursor: pointer;
+	padding: 0.7em 1.3em;
+	font-weight: 500;
+	font-size: 0.9rem;
+	white-space: nowrap;
+	transition: all 0.25s ease-out;
+}
+
+.btn:hover {
+	border: 2px solid var(--hover);
+	color: var(--hover);
 }

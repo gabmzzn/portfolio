@@ -31,8 +31,8 @@ const Navbar = () => {
 			</a>
 			<ul className={`${css.list} ${showNavList ? css.visible : css.invisible}`}>
 				<li className={`${css.listItem} ${css.about}`}>
-					<a href={'#'} onClick={toggleNavList} className={`${css.link} link--nav`}>
-						About
+					<a href={'#'} onClick={toggleNavList} className={css.link}>
+						about
 					</a>
 				</li>
 				{navbar.map((element, i) =>
@@ -40,7 +40,7 @@ const Navbar = () => {
 						<a
 							href={`#${element}`}
 							onClick={toggleNavList}
-							className={`${css.link} link--nav`}
+							className={css.link}
 						>
 							{element}
 						</a>

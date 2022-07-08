@@ -8,10 +8,24 @@
 	margin-bottom: 1.75em;
 }
 
-.listItem {
+.item {
 	margin: 0.5em;
 	color: var(--font);
 	font-size: 16px !important;
 	background-color: var(--background-bright);
 	cursor: default;
+	border-radius: 12px;
+	border: 2px solid var(--primary);
+	padding: 0.7em 1.3em;
+	font-weight: 500;
+	font-size: 0.9rem;
+	transition: all 0.25s ease-out;
+	background-color: var(--background);
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+	border: 0;
+}
+
+.item:hover {
+	color: var(--hover);
+	transform: translateY(-4px);
 }
