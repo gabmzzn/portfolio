@@ -2,6 +2,7 @@ import css from './Contact.module.css'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import MailIcon from '@material-ui/icons/Mail'
 import PhoneIcon from '@material-ui/icons/Phone'
+import Logo from '../Logo/Logo'
 
 const Contact = (props) => {
 
@@ -47,6 +48,7 @@ const Contact = (props) => {
 							<LinkedInIcon />
 						</a>&nbsp;profile 😉
 					</p>
+					<Logo className={css.svg} />
 				</div>
 			</div>
 		</section>

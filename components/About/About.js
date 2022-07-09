@@ -13,7 +13,7 @@ const About = (props) => {
 		'education',
 		'certificates',
 		'languages',
-		'testimonials',
+		// 'testimonials',
 		'contact'
 	]
 

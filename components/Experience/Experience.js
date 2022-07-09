@@ -1,4 +1,3 @@
-import uniqid from 'uniqid'
 import ExperienceCard from './ExperienceCard/ExperienceCard'
 import css from './Experience.module.css'
 

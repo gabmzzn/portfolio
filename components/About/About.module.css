@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=block');
 
 .container {
-	padding: 8.5em 5em 9em;
+	padding: 10em 5em 9em;
 }
 
 .flexbox {
@@ -9,6 +9,19 @@
 	margin-bottom: 7em;
 	justify-content: space-between;
 	align-items: center;
+	animation: start 1.5s;
+}
+
+@keyframes start {
+	from {
+		transform: translateY(100px);
+		opacity: 0%;
+	}
+
+	to {
+		transform: translateY(0) scale(1);
+		opacity: 100%;
+	}
 }
 
 .hi,
