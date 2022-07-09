@@ -7,6 +7,12 @@
 	margin-bottom: 1.75em;
 }
 
+@media (max-width: 975px) {
+	.list {
+		max-width: 100%;
+	}
+}
+
 .item {
 	margin: 0.5em;
 	color: var(--font);
