@@ -139,7 +139,7 @@
 
 @media (max-width: 1050px) {
 	.svg {
-		margin-top: -1px;
+		margin-top: -2px;
 		transform: scale(0.9);
 	}
 

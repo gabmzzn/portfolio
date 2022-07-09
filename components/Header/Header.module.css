@@ -10,7 +10,7 @@
 	box-shadow: var(--shadow-nav);
 	border-bottom: 1px solid rgb(27, 27, 32);
 	transform: translateY(-80px);
-	transition: transform 0.5s;
+	transition: transform 0.3s;
 	padding: 0em 5em;
 	z-index: 9000;
 }
@@ -18,7 +18,7 @@
 .shadow {
 	box-shadow: var(--shadow-nav);
 	transform: translateY(0px);
-	transition: transform 0.5s;
+	transition: transform 0.3s;
 }
 
 @media (max-width: 1050px) {
@@ -30,6 +30,7 @@
 
 	.shadow {
 		transform: none;
+		box-shadow: var(--shadow-nav-mob);
 		transition: all 0s ease 0s;
 	}
 

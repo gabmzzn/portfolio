@@ -55,16 +55,11 @@
 
 .contact {
 	display: flex;
+	max-width: 85%;
 	flex-wrap: wrap;
 	margin-top: 2.4em;
 	justify-content: space-between;
 	align-items: center;
-}
-
-
-
-.contact a {
-	margin: 15px 5.7em 15px 0;
 }
 
 .about .linkIcon {
@@ -140,28 +135,35 @@
 	.navList {
 		display: none;
 	}
-
-	.container {
-		padding: 6em 2em 8em;
-	}
-
-	.name p:first-child {
-		margin-left: -3px;
-	}
-
-	.name p:last-child {
-		margin-left: -2px;
-	}
 }
 
-@media (max-width: 800px) {
-
-	.contact {
-		justify-content: center;
-	}
+@media (max-width: 750px) {
 
 	.container {
 		padding: 6em 2em 4em;
+	}
+
+	.contact a {
+		margin: 0.75em 0;
+	}
+
+	.contact {
+		margin-top: 1em;
+		flex-direction: column;
+	}
+
+	.flexbox {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
 	}
 
 	.hi {
