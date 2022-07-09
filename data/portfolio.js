@@ -163,7 +163,7 @@ const languages = [
 	{
 		title: 'English',
 		subtitle: 'Advanced Level',
-		description: ['Very good writing, reading,', 'listening, and verbal skill'],
+		description: ['Writing', 'Reading', 'Listening', 'Verbal skills'],
 		img: './gb.svg'
 	},
 	{

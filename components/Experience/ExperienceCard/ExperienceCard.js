@@ -1,5 +1,5 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LaunchIcon from '@mui/icons-material/Launch'
 import css from './ExperienceCard.module.css'
 
 const ExperienceCard = ({ project }) => (

@@ -1,5 +1,5 @@
 import css from './CertificatesCard.module.css'
-import LaunchIcon from '@material-ui/icons/Launch'
+import LaunchIcon from '@mui/icons-material/Launch'
 
 const CertificatesCard = ({ learn }) => {
 

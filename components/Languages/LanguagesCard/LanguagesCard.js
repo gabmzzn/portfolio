@@ -1,5 +1,4 @@
 import css from './LanguagesCard.module.css'
-import Image from 'next/image'
 
 const LanguagesCard = (props) => {
 
@@ -10,8 +9,8 @@ const LanguagesCard = (props) => {
 			<img src={img} className={css.img} alt={title} />
 			<h1>{title}</h1>
 			<h4>{subtitle}</h4>
-			<ul className={css.description}>
-				{description.map((d, i) => <li key={i}>{d}</li>)}
+			<ul className='listRound'>
+				{description.map((d, i) => <li key={i} className='itemRound'>{d}</li>)}
 			</ul>
 		</div>)
 }

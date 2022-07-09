@@ -1,7 +1,7 @@
 import css from './Contact.module.css'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import MailIcon from '@material-ui/icons/Mail'
-import PhoneIcon from '@material-ui/icons/Phone'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import MailIcon from '@mui/icons-material/Mail'
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid'
 import Logo from '../Logo/Logo'
 
 const Contact = (props) => {
@@ -21,18 +21,20 @@ const Contact = (props) => {
 						and would love to connect!
 					</p>
 					<p>
-						Drop me an email at&nbsp;<b>gabmzzn@gmail.com</b>&nbsp;
+						Drop me an email at&nbsp;
 						<a href={`mailto:${contact.email}`}
 							className={`${css.linkIcon} link`}
 							target="_blank" rel="noreferrer">
+							<b>gabmzzn@gmail.com</b>&nbsp;
 							<MailIcon />
 						</a>
 					</p>
 					<p>
-						Call me or send a whatsapp message at&nbsp;<b>+54 351 772 4983</b>&nbsp;
+						Call me or send a whatsapp message at&nbsp;
 						<a href={`tel:+543517724983`}
 							className={`${css.linkIcon} link`}>
-							<PhoneIcon />
+							<b>+54 351 772 4983</b>&nbsp;
+							<PhoneAndroidIcon />
 						</a>
 					</p>
 					<p>

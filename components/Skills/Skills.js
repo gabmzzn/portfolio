@@ -17,9 +17,9 @@ const Skills = (props) => {
 							<h1>
 								{skill.name}
 							</h1>
-							<ul className={css.list}>
+							<ul className='listRound'>
 								{skill.skills.map((s, i) => (
-									<li key={i} className={css.item}>
+									<li key={i} className='itemRound'>
 										{s}
 									</li>
 								))}

@@ -29,11 +29,9 @@ const useScrollspy = (ids, offset = 0) => {
 					const rect = element.getBoundingClientRect()
 					const top = clamp(rect.top + scroll - offset)
 					const bottom = clamp(rect.bottom + scroll - offset)
-
 					return { id, top, bottom }
 				})
 				.find(({ top, bottom }) => isBetween(scroll, top, bottom))
-
 			setActiveId(position?.id || "")
 		}
 
@@ -47,7 +45,6 @@ const useScrollspy = (ids, offset = 0) => {
 			window.removeEventListener("scroll", listener)
 		}
 	}, [ids, offset])
-
 	return activeId
 }
 

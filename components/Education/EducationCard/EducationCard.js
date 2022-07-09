@@ -14,9 +14,9 @@ const EducationCard = ({ edu }) => {
 			<div className={css.info}>
 				{info}
 			</div>
-			<ul className={css2.list}>
+			<ul className='listRound'>
 				{description.map((d, i) =>
-					<li key={i} className={css2.item}>{d}</li>)}
+					<li key={i} className='itemRound'>{d}</li>)}
 			</ul>
 		</div>)
 }
