@@ -8,7 +8,6 @@
 	font-size: inherit;
 	box-shadow: none;
 	box-sizing: border-box;
-	-webkit-tap-highlight-color: var(--background-bright);
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -106,6 +105,17 @@ main {
 .dark {
 	background-color: var(--background-bright);
 	background-image: var(--background-image);
+}
+
+@media (max-width: 600px) {
+
+	.app {
+		background-size: 100%;
+	}
+
+	.dark {
+		background-size: 100%;
+	}
 }
 
 .dark h2 {
