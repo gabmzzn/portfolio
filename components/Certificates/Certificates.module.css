@@ -1,7 +1,7 @@
 .certificates {
-	display: flex;
-	flex-wrap: wrap;
+	max-width: 1100px;
 	margin: 0 -1.5em;
-	position: relative;
-	z-index: 10;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+	grid-gap: 2em;
 }

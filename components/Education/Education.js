@@ -11,7 +11,7 @@ const Education = (props) => {
 		<section id='education' className='dark'>
 			<div className='content'>
 				<h2>Education</h2>
-				<div className={css.flex}>
+				<div className={css.grid}>
 					{data.map((edu, i) => (
 						<EducationCard key={i} edu={edu} />
 					))}

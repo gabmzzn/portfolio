@@ -1,12 +1,7 @@
-@media (max-width: 845px) {
-	.projects {
-		display: unset;
-	}
-}
-
 .cards {
-	display: flex;
-	flex-wrap: wrap;
 	margin: 0 -1.5em;
-	z-index: 10;
+	max-width: 1100px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+	grid-gap: 2em;
 }

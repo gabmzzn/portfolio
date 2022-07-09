@@ -1,7 +1,5 @@
 .project {
-	padding: 1.5em;
-	width: 50%;
-	z-index: 1;
+	padding: 0.5em 1.5em;
 }
 
 .description {
@@ -18,7 +16,7 @@
 	margin: 0.5em 1em 0.5em 0;
 	font-weight: 500;
 	font-size: 0.8rem;
-	color: var(--font-hs);
+	color: white;
 }
 
 .linkIcon {

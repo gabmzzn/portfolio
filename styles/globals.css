@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-	font-size: 13rem;
+	font-size: min(16vw, 13rem);
 	margin-bottom: 0.2em;
 	z-index: 0;
 }

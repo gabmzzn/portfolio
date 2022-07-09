@@ -151,11 +151,11 @@ const certificates = [
 		info: 'UDEMY - ACADEMIND - 2022>'
 	},
 	{
-		title: 'EF SET',
+		title: 'EF STANDARD ENGLISH TEST',
 		subtitle: 'English Certificate',
 		description: 'Listening Section 80/100, Reading Section 88/100, Total Score 84/100 (C2 Proficient)',
 		link: 'https://www.efset.org/cert/wxiedj',
-		info: 'EF STANDARD ENGLISH TEST - 2021'
+		info: 'EF SET - 2021'
 	},
 ]
 

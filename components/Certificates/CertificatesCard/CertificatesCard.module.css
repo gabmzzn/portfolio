@@ -1,6 +1,5 @@
 .learning {
-	padding: 1.5em;
-	width: 50%;
+	padding: 0.5em 1.5em;
 }
 
 .learning h3 {
@@ -14,7 +13,7 @@
 .stack {
 	display: flex;
 	flex-wrap: wrap;
-	/* justify-content: center; */
+	color: white;
 	margin: 1.2em 0;
 }
 
