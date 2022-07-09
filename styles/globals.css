@@ -81,7 +81,7 @@ main {
 	--background: #1c1e26;
 	--background-bright: hwb(220 14% 80%);
 	--background-image: url("../public/navy.png");
-	--font: rgb(188, 191, 199);
+	--font: #bcbfc7;
 	--font-hs: rgb(189, 191, 199);
 	--hover: rgb(255, 255, 255);
 	--primary: #ffe869;

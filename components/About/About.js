@@ -35,7 +35,7 @@ const About = (props) => {
 						<div className={css.role}>{role}</div>
 						<p className={css.desc}>
 							I live in Cordoba, Argentina, and I&apos;m a passionate multi-skilled <br />
-							developer and information systems engineer student
+							developer and Information Systems Engineering student.
 						</p>
 
 						<div className={css.contact}>
