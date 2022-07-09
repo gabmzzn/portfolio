@@ -20,14 +20,14 @@ developer and Information Systems Engineering student" />
 				<meta property="og:title" content="Juan Gabriel Mazzoleni - Full Stack Developer" />
 				<meta property="og:description" content="I'm a passionate multi-skilled
 developer and Information Systems Engineering student" />
-				<meta property="og:image" content="../public/image.png" />
+				<meta property="og:image" content="https://gabmz.dev/image.png" />
 
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://gabmz.dev/" />
 				<meta property="twitter:title" content="Juan Gabriel Mazzoleni - Full Stack Developer" />
 				<meta property="twitter:description" content="I'm a passionate multi-skilled
 developer and Information Systems Engineering student" />
-				<meta property="twitter:image" content="../public/image.png" />
+				<meta property="twitter:image" content="https://gabmz.dev/image.png" />
 			</Head>
 			<body>
 				<Main />
