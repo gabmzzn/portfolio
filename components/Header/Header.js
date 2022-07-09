@@ -10,7 +10,7 @@ const Header = () => {
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
 			setScroll(window.scrollY > 900)
-			setShadow(window.scrollY > 30)
+			setShadow(window.scrollY > 10)
 		})
 	}, [])
 

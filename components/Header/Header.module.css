@@ -7,23 +7,22 @@
 	background-image: var(--background-image);
 	height: 4.2em;
 	margin: 0 auto;
-	box-shadow: none;
+	box-shadow: 0 0 0 transparent;
 	border-bottom: 1px solid rgb(27, 27, 32);
 	transform: translateY(-80px);
 	padding: 0em 5em;
 	z-index: 9000;
-	transition: transform 0.3s, box-shadow 0.3s;
+	transition: box-shadow 0.2s, transform 0.3s;
 }
 
 .navbarDisplay {
 	transform: translateY(0px);
-	transition: transform 0.3s,
-		box-shadow 0.3s;
+	transition: box-shadow 0.2s, transform 0.3s;
 }
 
 .shadow {
 	box-shadow: var(--shadow-nav-mob);
-	transition: box-shadow 0.3s;
+	transition: box-shadow 0.2s, transform 0.3s;
 }
 
 @media (max-width: 1050px) {
