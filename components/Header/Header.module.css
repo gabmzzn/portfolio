@@ -9,20 +9,25 @@
 	margin: 0 auto;
 	box-shadow: 0 0 0 transparent;
 	border-bottom: 1px solid rgb(27, 27, 32);
-	transform: translateY(-80px);
 	padding: 0em 5em;
 	z-index: 9000;
 	transition: box-shadow 0.2s;
+	animation: start 1.5s;
 }
 
-.navbarDisplay {
-	transform: translateY(0px);
-	transition: box-shadow 0.2s, transform 0.3s;
+@keyframes start {
+	from {
+		transform: translateY(-66px);
+	}
+
+	to {
+		transform: translateY(0px);
+	}
 }
 
 .shadow {
 	box-shadow: var(--shadow-nav-mob);
-	transition: box-shadow 0.2s, transform 0.3s;
+	transition: box-shadow 0.2s;
 }
 
 @media (max-width: 1050px) {

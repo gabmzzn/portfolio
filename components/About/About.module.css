@@ -1,5 +1,5 @@
 .container {
-	padding: 10em 5em 9em;
+	padding: 20vh 5em 20vh;
 }
 
 .flexbox {
@@ -116,6 +116,47 @@
 	padding: 0.45em 0;
 	position: relative;
 	transition: color 0.4s;
+	animation: highlight 2s;
+}
+
+.navList li::before {
+	animation: highlightBefore 2s;
+}
+
+@keyframes highlightBefore {
+	0% {
+		opacity: 0%;
+	}
+
+	40% {
+		opacity: 0%;
+	}
+
+	80% {
+		opacity: 100%;
+	}
+
+	100% {
+		opacity: 0%;
+	}
+}
+
+@keyframes highlight {
+	0% {
+		color: var(--font);
+	}
+
+	40% {
+		color: var(--font);
+	}
+
+	80% {
+		color: var(--primary);
+	}
+
+	100% {
+		color: var(--font);
+	}
 }
 
 .navList li:hover {
