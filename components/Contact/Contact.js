@@ -11,8 +11,7 @@ const Contact = (props) => {
 	if (!contact.email) return null
 
 	return (
-
-		<section className="normal" id='contact'>
+		<section className={`normal ${css.contact}`} id='contact'>
 			<div className='content'>
 				<h2>Contact</h2>
 				<div className={css.description}>
