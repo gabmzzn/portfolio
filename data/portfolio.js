@@ -38,7 +38,7 @@ const experience = [
 	{
 		name: 'Software Developer',
 		where: 'DIMAMCOR SRL',
-		time: 'Full Time - Apr 2019 · Aug 2021',
+		time: 'Part Time - Apr 2019 · Aug 2021',
 		description:
 			'Develop and maintenance of sales system, invoice, price list management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',
 		stack: ['Power Query', 'SQL']
