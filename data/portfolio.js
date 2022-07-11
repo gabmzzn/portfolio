@@ -175,7 +175,7 @@ const languages = [
 	{
 		title: 'Spanish',
 		subtitle: 'Native Speaker',
-		description: ['With an Argentinian accent 🧉'],
+		description: ['With argentinian accent 🧉'],
 		img: '/es.svg'
 	}
 ]
