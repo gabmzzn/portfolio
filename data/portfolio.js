@@ -19,7 +19,7 @@ const about = {
 const experience = [
 	{
 		name: 'Frontend Developer',
-		where: 'Admitad',
+		where: 'Zoom to Fill - Admitad',
 		time: 'Contract - Sept 2020 · Present',
 		description:
 			'Developer of a Google Chrome extension in partnership with an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users.',
@@ -29,7 +29,7 @@ const experience = [
 	{
 		name: 'CryptoCat',
 		where: 'ASD Studios',
-		time: 'Contract - Jan 2022 · Present',
+		time: 'Contract - Jan 2022 · Mar 2022',
 		description:
 			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and exchanges',
 		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
