@@ -17,7 +17,7 @@ const About = (props) => {
 	]
 
 	return (
-		<div className={css.container}>
+		<section className={css.container}>
 			<div className='content'>
 				<div className={css.flexbox}>
 					<div className={css.about}>
@@ -73,7 +73,7 @@ const About = (props) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 
