@@ -69,10 +69,13 @@ const Navbar = () => {
 
 	return (
 		<nav className={css.navbar}>
-			<a href='#' className={css.logo}>
+			<a href='#' className={css.logoMob}>
 				<Logo className={css.svg} />
 			</a>
 			<ul className={`${css.list} ${navList ? css.visible : css.invisible}`}>
+				<a href='#' className={css.logo}>
+					<Logo className={css.svg} />
+				</a>
 				<li className={`${css.listItem} ${css.about}`}>
 					<a href={'#'} onClick={toggleNavList} className={css.link}>
 						about

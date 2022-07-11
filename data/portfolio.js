@@ -18,7 +18,8 @@ const about = {
 
 const experience = [
 	{
-		name: 'Frontend Developer · Admitad',
+		name: 'Frontend Developer',
+		where: 'Admitad',
 		time: 'Contract - Sept 2020 · Present',
 		description:
 			'Developer of a Google Chrome extension in partnership with an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users.',
@@ -27,6 +28,7 @@ const experience = [
 	},
 	{
 		name: 'CryptoCat',
+		where: 'ASD Studios',
 		time: 'Contract - Jan 2022 · Present',
 		description:
 			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and exchanges',
@@ -34,7 +36,8 @@ const experience = [
 		livePreview: 'https://cryptovcat.vercel.app/market',
 	},
 	{
-		name: 'Software Developer · DIMAMCOR',
+		name: 'Software Developer',
+		where: 'DIMAMCOR SRL',
 		time: 'Full Time - Apr 2019 · Aug 2021',
 		description:
 			'Develop and maintenance of sales system, invoice, price list management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',

@@ -2,6 +2,10 @@
 	padding: 0.5em 1.5em;
 }
 
+.work h4 {
+	margin: -0.5em 0 0.55em;
+}
+
 .time {
 	color: white;
 	font-weight: bold;

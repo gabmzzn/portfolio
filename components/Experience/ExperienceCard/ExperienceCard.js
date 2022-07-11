@@ -5,6 +5,7 @@ import css from './ExperienceCard.module.css'
 const ExperienceCard = ({ work }) => (
 	<div className={css.work}>
 		<h3>{work.name}</h3>
+		<h4>{work.where}</h4>
 		{work.time && <span className={css.time}>{work.time}</span>}
 		<p className={css.description}>{work.description}</p>
 		{work.stack && (

@@ -20,6 +20,11 @@ const About = (props) => {
 		<section className={css.container}>
 			<div className='content'>
 				<div className={css.flexbox}>
+					<div className={css.logo}>
+						<h1>
+							about
+						</h1>
+					</div>
 					<div className={css.about}>
 						<div className={css.hi}>
 							Hi, my name is
@@ -65,11 +70,6 @@ const About = (props) => {
 								</span>
 							</a>
 						</div>
-					</div>
-					<div className={css.logo}>
-						<h1>
-							{'.js'}
-						</h1>
 					</div>
 				</div>
 			</div>

@@ -5,8 +5,8 @@
 .flexbox {
 	display: flex;
 	margin-bottom: 7em;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: center;
+	margin-left: -6.5em;
 }
 
 .about {
@@ -21,6 +21,33 @@
 
 	to {
 		transform: translateY(0) scale(1);
+		opacity: 100%;
+	}
+}
+
+.logo h1 {
+	font-size: 13.8em;
+	text-align: center;
+	color: var(--background-bright);
+	user-select: none;
+	margin-bottom: 0.07em;
+	animation: start2 1.5s;
+}
+
+.logo {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	margin: 0;
+}
+
+@keyframes start2 {
+	from {
+		transform: translateX(100px);
+		opacity: 0%;
+	}
+
+	to {
+		transform: translateX(0);
 		opacity: 100%;
 	}
 }
@@ -122,7 +149,6 @@
 }
 
 @media (max-width: 950px) {
-
 	.logo {
 		display: none;
 	}
@@ -148,6 +174,7 @@
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
+		margin-left: 0em;
 	}
 
 	.about {
@@ -167,25 +194,5 @@
 
 	.role {
 		font-size: 1.9rem !important;
-	}
-}
-
-.logo h1 {
-	font-size: 12em;
-	text-align: center;
-	word-wrap: normal;
-	color: var(--background-bright);
-	margin-bottom: 0.3em;
-	user-select: none;
-	animation: fade 2s;
-}
-
-@keyframes fade {
-	from {
-		opacity: 0%;
-	}
-
-	to {
-		opacity: 100%;
 	}
 }
