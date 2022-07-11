@@ -2,25 +2,25 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import LaunchIcon from '@mui/icons-material/Launch'
 import css from './ExperienceCard.module.css'
 
-const ExperienceCard = ({ project }) => (
-	<div className={css.project}>
-		<h3>{project.name}</h3>
-
-		<p className={css.description}>{project.description}</p>
-		{project.stack && (
+const ExperienceCard = ({ work }) => (
+	<div className={css.work}>
+		<h3>{work.name}</h3>
+		{work.time && <span className={css.time}>{work.time}</span>}
+		<p className={css.description}>{work.description}</p>
+		{work.stack && (
 			<ul className={css.stack}>
-				{project.stack.map((item, i) => (
+				{work.stack.map((item, i) => (
 					<li key={i} className={css.stackItem}>
 						{item}
 					</li>
 				))}
 			</ul>
 		)}
-		{(project.sourceCode || project.livePreview) &&
+		{(work.sourceCode || work.livePreview) &&
 			<div style={{ display: 'flex', marginTop: '1.2em' }}>
-				{project.sourceCode && (
+				{work.sourceCode && (
 					<a
-						href={project.sourceCode}
+						href={work.sourceCode}
 						aria-label='source code'
 						className={`${css.linkIcon} link`}
 						target='_blank' rel="noreferrer"
@@ -29,9 +29,9 @@ const ExperienceCard = ({ project }) => (
 						<GitHubIcon />
 					</a>
 				)}
-				{project.livePreview && (
+				{work.livePreview && (
 					<a
-						href={project.livePreview}
+						href={work.livePreview}
 						aria-label='live preview'
 						className={`${css.linkIcon} link`}
 						target='_blank' rel="noreferrer"

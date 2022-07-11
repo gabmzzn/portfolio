@@ -2,7 +2,7 @@ import css from './Contact.module.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import MailIcon from '@mui/icons-material/Mail'
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid'
-import Logo from '../Logo/Logo'
+import Logo from '../Logo/Glasses'
 
 const Contact = (props) => {
 

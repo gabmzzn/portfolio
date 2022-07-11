@@ -7,8 +7,12 @@
 }
 
 .language h4 {
-	font-size: 1.85rem;
+	font-size: 1.67rem;
 	margin: 0.9em 0;
+}
+
+.language h1 {
+	font-size: 3em;
 }
 
 .language ul {

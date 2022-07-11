@@ -7,6 +7,9 @@
 	margin-bottom: 7em;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.about {
 	animation: start 1.5s;
 }
 
@@ -99,7 +102,8 @@
 	color: var(--hover);
 }
 
-.navList {
+.contactInfo {
+	background-color: var(--background-bright);
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 	width: 33%;
@@ -111,80 +115,15 @@
 	font-size: 2.3rem;
 }
 
-
-.navList li {
-	padding: 0.45em 0;
-	position: relative;
-	transition: color 0.4s;
-	animation: highlight 2s;
-}
-
-.navList li::before {
-	animation: highlightBefore 2s;
-}
-
-@keyframes highlightBefore {
-	0% {
-		opacity: 0%;
-	}
-
-	40% {
-		opacity: 0%;
-	}
-
-	80% {
-		opacity: 100%;
-	}
-
-	100% {
-		opacity: 0%;
-	}
-}
-
-@keyframes highlight {
-	0% {
-		color: var(--font);
-	}
-
-	40% {
-		color: var(--font);
-	}
-
-	80% {
-		color: var(--primary);
-	}
-
-	100% {
-		color: var(--font);
-	}
-}
-
-.navList li:hover {
-	color: var(--primary);
-}
-
-.navList li::before {
-	content: '';
-	display: inline;
-	width: 90%;
-	right: 5%;
-	left: 5%;
-	top: 85%;
-	opacity: 0%;
-	height: 5px;
-	position: absolute;
-	bottom: 0;
-	background-color: var(--primary);
-	transition: opacity 0.4s;
-}
-
-.navList li:hover::before,
-.navList li:focus::before {
-	opacity: 100%;
-}
-
 @media (max-width: 1050px) {
 	.navList {
+		display: none;
+	}
+}
+
+@media (max-width: 950px) {
+
+	.logo {
 		display: none;
 	}
 }
@@ -228,5 +167,25 @@
 
 	.role {
 		font-size: 1.9rem !important;
+	}
+}
+
+.logo h1 {
+	font-size: 12em;
+	text-align: center;
+	word-wrap: normal;
+	color: var(--background-bright);
+	margin-bottom: 0.3em;
+	user-select: none;
+	animation: fade 2s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0%;
+	}
+
+	to {
+		opacity: 100%;
 	}
 }

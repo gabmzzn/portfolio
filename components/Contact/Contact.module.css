@@ -25,7 +25,7 @@
 }
 
 .svg {
-	fill: var(--background-bright);
+	fill: rgb(38, 43, 53);
 	width: 300px;
 	height: 300px;
 }

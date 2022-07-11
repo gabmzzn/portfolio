@@ -1,7 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import css from './About.module.css'
-
 const About = (props) => {
 
 	const { about } = props
@@ -18,7 +17,7 @@ const About = (props) => {
 	]
 
 	return (
-		<section className={css.container}>
+		<div className={css.container}>
 			<div className='content'>
 				<div className={css.flexbox}>
 					<div className={css.about}>
@@ -67,9 +66,14 @@ const About = (props) => {
 							</a>
 						</div>
 					</div>
+					<div className={css.logo}>
+						<h1>
+							{'.js'}
+						</h1>
+					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	)
 }
 

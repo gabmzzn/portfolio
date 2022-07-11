@@ -1,5 +1,10 @@
-.project {
+.work {
 	padding: 0.5em 1.5em;
+}
+
+.time {
+	color: white;
+	font-weight: bold;
 }
 
 .description {

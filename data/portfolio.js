@@ -15,65 +15,70 @@ const about = {
 	},
 }
 
+
+const experience = [
+	{
+		name: 'Frontend Developer · Admitad',
+		time: 'Contract - Sept 2020 · Present',
+		description:
+			'Developer of a Google Chrome extension in partnership with an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users.',
+		stack: ['React.js', 'TypeScript', 'Javascript', 'Chrome API', 'HTML', 'CSS/SASS'],
+		livePreview: 'https://zoomtofill.vercel.app/',
+	},
+	{
+		name: 'CryptoCat',
+		time: 'Contract - Jan 2022 · Present',
+		description:
+			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and exchanges',
+		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
+		livePreview: 'https://cryptovcat.vercel.app/market',
+	},
+	{
+		name: 'Software Developer · DIMAMCOR',
+		time: 'Full Time - Apr 2019 · Aug 2021',
+		description:
+			'Develop and maintenance of sales system, invoice, price list management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',
+		stack: ['Power Query', 'SQL']
+	},
+]
+
 const projects = [
 	{
 		name: 'Cinema React',
 		description:
-			'Developer of a movie theatre-like portal to show different popular avaible movies with detailed information pages with search functionality, powered by TheMovieDB API',
+			'Movie theatre-like portal to show different popular avaible movies with detailed information pages with search functionality, powered by TheMovieDB API',
 		stack: ['React', 'TypeScript', 'REST APIs', 'Material UI'],
 		sourceCode: 'https://github.com/gabmzzn/cinema-react',
 		livePreview: 'https://cinemareact.vercel.app/discover',
 	},
 	{
-		name: 'CryptoCat',
-		description:
-			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and top exchanges',
-		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
-		sourceCode: 'https://github.com/gabmzzn/cryptocat',
-		livePreview: 'https://cryptovcat.vercel.app/market',
-	},
-	{
-		name: 'Zoom to Fill',
-		description:
-			'Developer of a Google Chrome extension for an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users',
-		stack: ['Javascript', 'HTML', 'CSS', 'Chrome API', 'Adobe Photoshop'],
-		sourceCode: 'https://github.com/gabmzzn/zoomtofill',
-		livePreview: 'https://zoomtofill.vercel.app/',
-	},
-	{
 		name: 'Next Events',
 		description:
-			'Developer of a React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
-		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
-	},
-	{
-		name: 'React Food App',
-		description:
-			'Developer of a React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database',
-		stack: ['React', 'JavaScript', 'REST APIs', 'Firebase', 'Material UI'],
+			'React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
+		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'Material UI'],
 	},
 	{
 		name: 'Investraining',
 		description:
-			'Developer of a web portal crypto where it shows fluctuant live market data in real-time and statistical data about specific currencies',
-		stack: ['Angular', 'TypeScript', 'Material', 'REST APIs', 'WebSocket'],
+			'Portal crypto where it shows fluctuant live market data in real-time and statistical data about specific currencies',
+		stack: ['Angular', 'TypeScript', 'REST APIs', 'WebSocket'],
 		sourceCode: 'https://github.com/gabmzzn/investraining',
 		livePreview: 'https://investraining.vercel.app/market',
+	},
+	{
+		name: 'React Food App',
+		description:
+			'React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database',
+		stack: ['React', 'JavaScript', 'REST APIs', 'Material UI'],
 	},
 	{
 		name: 'Angular CRUD',
 		description:
 			'Web app made with NodeJS and Express.js as backend for experimenting different aspects of a API made with Node connected with a MySQL database and a frontend made on Angular.',
-		stack: ['Angular', 'Node.js', 'TypeScript', 'MySQL', 'Material', 'Bootstrap', 'REST APIs'],
+		stack: ['Angular', 'Node.js', 'TypeScript', 'MySQL', 'REST APIs'],
 		sourceCode: 'https://github.com/gabmzzn/angularCRUD',
 		livePreview: 'https://angular-crud-sigma.vercel.app/',
-	},
-	{
-		name: 'Business System Manager',
-		description:
-			'Develop and maintenance of sales system, invoice, price list management and client management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',
-		stack: ['Microsoft Excel', 'SQL']
-	},
+	}
 ]
 
 const skills = [
@@ -101,12 +106,13 @@ const education = [
 		title: 'Information Systems Engineering',
 		subtitle: 'Universidad Tecnológica Nacional',
 		description: [
-			'Unified Software Development Process',
-			'Algorithm Complexity Analysis',
 			'Software Design Patterns',
+			'Agile Methodology',
+			'Algorithm Complexity Analysis',
+			'Unified Software Development Process',
+			'Data Structure and Algorithms',
 			'Oriented Object Design',
-			'Database Design',
-			'Data Structure and Algorithms'
+			'Database Design'
 		],
 		info: '2022>',
 		img: '/utn.png'
@@ -114,7 +120,7 @@ const education = [
 	{
 		title: 'Bachelor on Programming',
 		subtitle: 'Instituto José Peña',
-		description: ['Scholar Website Project', 'General Systems Theory', 'Python language', 'Visual Basic .NET'],
+		description: ['General Systems Theory', 'Python language', 'Visual Basic .NET', 'Scholar Website Project',],
 		info: '2012',
 		img: '/graduate.png'
 	}
@@ -190,4 +196,4 @@ const contact = {
 	email: 'gabmzzn@gmail.com',
 }
 
-export { header, about, projects, education, certificates, skills, languages, testimonials, contact }
+export { header, about, experience, projects, education, certificates, skills, languages, testimonials, contact }

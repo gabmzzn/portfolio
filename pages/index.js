@@ -11,7 +11,7 @@ import Languages from '../components/Languages/Languages'
 
 export default function Home() {
 
-	const { about, projects, certificates, education,
+	const { about, experience, projects, certificates, education,
 		skills, languages, contact } = portfolio
 
 	return (
@@ -19,7 +19,7 @@ export default function Home() {
 			<Header />
 			<main>
 				<About about={about} />
-				<Experience projects={projects} />
+				<Experience experience={experience} projects={projects} />
 				<Skills skills={skills} />
 				<Education data={education} />
 				<Learning data={certificates} />

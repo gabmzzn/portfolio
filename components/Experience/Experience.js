@@ -3,7 +3,7 @@ import css from './Experience.module.css'
 
 const Experience = (props) => {
 
-	const { projects } = props
+	const { experience, projects } = props
 
 	if (!projects.length) return null
 
@@ -12,8 +12,14 @@ const Experience = (props) => {
 			<div className='content'>
 				<h2>Experience</h2>
 				<div className={css.cards}>
-					{projects.map((project, i) => (
-						<ExperienceCard key={i} project={project} />
+					{experience.map((e, i) => (
+						<ExperienceCard key={i} work={e} />
+					))}
+				</div>
+				<h1 className={css.h1}>projects</h1>
+				<div className={css.cards}>
+					{projects.map((p, i) => (
+						<ExperienceCard key={i} work={p} />
 					))}
 				</div>
 			</div>

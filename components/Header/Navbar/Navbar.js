@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Cross as Hamburger } from 'hamburger-react'
-import Logo from "../../Logo/Logo"
+import Logo from "../../Logo/Glasses"
 import css from './Navbar.module.css'
 
 // helpers
