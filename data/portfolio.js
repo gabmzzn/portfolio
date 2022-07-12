@@ -27,9 +27,9 @@ const experience = [
 		livePreview: 'https://zoomtofill.web.app/',
 	},
 	{
-		name: 'CryptoCat',
-		where: 'ASD Studios',
-		time: 'Contract - Jan 2022 · Mar 2022',
+		name: 'React Developer',
+		where: 'CryptoCat - ASD Studios',
+		time: 'Contract - Feb 2022 · Present',
 		description:
 			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and exchanges',
 		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
