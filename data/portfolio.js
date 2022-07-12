@@ -27,7 +27,7 @@ const experience = [
 		livePreview: 'https://zoomtofill.web.app/',
 	},
 	{
-		name: 'React Developer',
+		name: 'Frontend Developer',
 		where: 'CryptoCat - ASD Studios',
 		time: 'Contract - Feb 2022 · Present',
 		description:
