@@ -31,7 +31,7 @@ const experience = [
 		where: 'CryptoCat - ASD Studios',
 		time: 'Contract - Feb 2022 · Present',
 		description:
-			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and exchanges',
+			'Developer of a web portal crypto where it shows fluctuant live market data in real-time, statistical data about specific currencies, news feed, general information and exchanges.',
 		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'WebSocket', 'Material UI'],
 		livePreview: 'https://cryptovcat.vercel.app/market',
 	},
@@ -40,7 +40,7 @@ const experience = [
 		where: 'DIMAMCOR SRL',
 		time: 'Part Time - Apr 2019 · Aug 2021',
 		description:
-			'Develop and maintenance of sales system, invoice, price list management of a distributor of hardware products. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks',
+			'Develop and maintenance of sales, invoice, price list management on advanced spreadsheets/database of hardware products distributor. General optimization of the business process, achieving a 60-80% reduction in working hours for specific tasks.',
 		stack: ['Power Query', 'SQL']
 	},
 ]
@@ -49,7 +49,7 @@ const projects = [
 	{
 		name: 'Cinema React',
 		description:
-			'Movie theatre-like portal to show different popular avaible movies with detailed information pages with search functionality, powered by TheMovieDB API',
+			'Movie theatre-like portal to show different popular avaible movies with detailed information pages with search functionality, powered by TheMovieDB API.',
 		stack: ['React', 'TypeScript', 'REST APIs', 'Material UI'],
 		sourceCode: 'https://github.com/gabmzzn/cinema-react',
 		livePreview: 'https://cinemareact.vercel.app/discover',
@@ -57,13 +57,13 @@ const projects = [
 	{
 		name: 'Next Events',
 		description:
-			'React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG)',
+			'React & Next.js project where you can see and filter events fetched from a realtime database experimenting with Static Site Generation (SSG).',
 		stack: ['React', 'Next.js', 'JavaScript', 'REST APIs', 'Material UI'],
 	},
 	{
 		name: 'Investraining',
 		description:
-			'Portal crypto where it shows fluctuant live market data in real-time and statistical data about specific currencies',
+			'Portal crypto where it shows fluctuant live market data in real-time and statistical data about specific currencies.',
 		stack: ['Angular', 'TypeScript', 'REST APIs', 'WebSocket'],
 		sourceCode: 'https://github.com/gabmzzn/investraining',
 		livePreview: 'https://investraining.vercel.app/market',
@@ -71,7 +71,7 @@ const projects = [
 	{
 		name: 'React Food App',
 		description:
-			'React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database',
+			'React project where you can see a menu list where you can order and manage a cart of orders which are fetched and store on a realtime database.',
 		stack: ['React', 'JavaScript', 'REST APIs', 'Material UI'],
 	},
 	{
