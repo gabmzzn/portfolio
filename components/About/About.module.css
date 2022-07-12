@@ -28,7 +28,7 @@
 .logo h1 {
 	font-size: 13.8em;
 	text-align: center;
-	color: var(--background-bright);
+	color: #262b35;
 	user-select: none;
 	margin-bottom: 0.07em;
 	animation: start2 1.5s;
