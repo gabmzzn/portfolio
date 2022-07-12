@@ -20,7 +20,7 @@ const experience = [
 	{
 		name: 'Frontend Developer',
 		where: 'Zoom to Fill - Admitad',
-		time: 'Contract - Sept 2020 · Present',
+		time: 'Contract - Sept 2021 · Present',
 		description:
 			'Developer of a Google Chrome extension in partnership with an advertising company with an initial floor of 30.000 users taken successfully to +70.000 users.',
 		stack: ['Javascript', 'Chrome API', 'HTML', 'CSS/SASS'],
