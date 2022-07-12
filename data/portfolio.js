@@ -157,7 +157,7 @@ const certificates = [
 		subtitle: 'The Complete Guide',
 		description: 'MongoDB Development for Web & Mobile Apps. CRUD Operations, Indexes, Aggregation Framework',
 		link: 'https://www.udemy.com/course/mongodb-the-complete-developers-guide/',
-		info: 'UDEMY - ACADEMIND - 2022>'
+		info: 'UDEMY - ACADEMIND - (In Progress)'
 	},
 	{
 		title: 'EF STANDARD ENGLISH TEST',
