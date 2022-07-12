@@ -149,7 +149,7 @@ const certificates = [
 		title: 'Node.js',
 		subtitle: 'The Complete Guide',
 		description: 'Express.js, MVC, Dynamic Routes & Advanced Models, Sequelize, NoSQL, REST APIs, GraphQL',
-		link: 'https://www.udemy.com/certificate/UC-e0dc8ff4-3547-4806-9325-a17fd01fd0a4/',
+		link: 'https://www.udemy.com/certificate/UC-a7ece0d8-aafd-42db-94e7-866837308a24/',
 		info: 'UDEMY - ACADEMIND - 2022>'
 	},
 	{
