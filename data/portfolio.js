@@ -18,7 +18,7 @@ const about = {
 
 const experience = [
 	{
-		name: 'Frontend Developer',
+		name: 'JavaScript Developer',
 		where: 'Zoom to Fill - Admitad',
 		time: 'Contract - Sept 2021 · Present',
 		description:
