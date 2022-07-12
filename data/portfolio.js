@@ -8,7 +8,7 @@ const about = {
 	role: 'Full Stack Developer',
 	description:
 		'I live in Cordoba, Argentina, and I\'m a passionate multi-skilled developer and an information systems engineer student',
-	resume: '/Juan_Gabriel_Mazzoleni-Resume_CV',
+	resume: '/Juan_Gabriel_Mazzoleni-Resume_CV.pdf',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/juan-gabriel-mazzoleni/',
 		github: 'https://github.com/gabmzzn',
